@@ -1,0 +1,4930 @@
+[
+    {
+      "spanish": "hablar",
+      "english": "to speak",
+      "chapter": 2,
+      "conjugations": {
+        "present": [
+          "hablo",
+          "hablas",
+          "habla",
+          "hablamos",
+          "habláis",
+          "hablan"
+        ],
+        "preterite": [
+          "hablé",
+          "hablaste",
+          "habló",
+          "hablamos",
+          "hablasteis",
+          "hablaron"
+        ],
+        "imperfect": [
+          "hablaba",
+          "hablabas",
+          "hablaba",
+          "hablábamos",
+          "hablabais",
+          "hablaban"
+        ]
+      }
+    },
+    {
+      "spanish": "mandar",
+      "english": "to send / order",
+      "chapter": 2,
+      "conjugations": {
+        "present": [
+          "mando",
+          "mandas",
+          "manda",
+          "mandamos",
+          "mandáis",
+          "mandan"
+        ],
+        "preterite": [
+          "mandé",
+          "mandaste",
+          "mandó",
+          "mandamos",
+          "mandasteis",
+          "mandaron"
+        ],
+        "imperfect": [
+          "mandaba",
+          "mandabas",
+          "mandaba",
+          "mandábamos",
+          "mandabais",
+          "mandaban"
+        ]
+      }
+    },
+    {
+      "spanish": "necesitar",
+      "english": "to need",
+      "chapter": 2,
+      "conjugations": {
+        "present": [
+          "necesito",
+          "necesitas",
+          "necesita",
+          "necesitamos",
+          "necesitáis",
+          "necesitan"
+        ],
+        "preterite": [
+          "necesité",
+          "necesitaste",
+          "necesitó",
+          "necesitamos",
+          "necesitasteis",
+          "necesitaron"
+        ],
+        "imperfect": [
+          "necesitaba",
+          "necesitabas",
+          "necesitaba",
+          "necesitábamos",
+          "necesitabais",
+          "necesitaban"
+        ]
+      }
+    },
+    {
+      "spanish": "pagar",
+      "english": "to pay",
+      "chapter": 2,
+      "conjugations": {
+        "present": [
+          "pago",
+          "pagas",
+          "paga",
+          "pagamos",
+          "pagáis",
+          "pagan"
+        ],
+        "preterite": [
+          "pagué",
+          "pagaste",
+          "pagó",
+          "pagamos",
+          "pagasteis",
+          "pagaron"
+        ],
+        "imperfect": [
+          "pagaba",
+          "pagabas",
+          "pagaba",
+          "pagábamos",
+          "pagabais",
+          "pagaban"
+        ]
+      }
+    },
+    {
+      "spanish": "practicar",
+      "english": "to practice",
+      "chapter": 2,
+      "conjugations": {
+        "present": [
+          "practico",
+          "practicas",
+          "practica",
+          "practicamos",
+          "practicáis",
+          "practican"
+        ],
+        "preterite": [
+          "practiqué",
+          "practicaste",
+          "practicó",
+          "practicamos",
+          "practicasteis",
+          "practicaron"
+        ],
+        "imperfect": [
+          "practicaba",
+          "practicabas",
+          "practicaba",
+          "practicábamos",
+          "practicabais",
+          "practicaban"
+        ]
+      }
+    },
+    {
+      "spanish": "regresar",
+      "english": "to return",
+      "chapter": 2,
+      "conjugations": {
+        "present": [
+          "regreso",
+          "regresas",
+          "regresa",
+          "regresamos",
+          "regresáis",
+          "regresan"
+        ],
+        "preterite": [
+          "regresé",
+          "regresaste",
+          "regresó",
+          "regresamos",
+          "regresasteis",
+          "regresaron"
+        ],
+        "imperfect": [
+          "regresaba",
+          "regresabas",
+          "regresaba",
+          "regresábamos",
+          "regresabais",
+          "regresaban"
+        ]
+      }
+    },
+    {
+      "spanish": "tocar",
+      "english": "to touch / play an instrument",
+      "chapter": 2,
+      "conjugations": {
+        "present": [
+          "toco",
+          "tocas",
+          "toca",
+          "tocamos",
+          "tocáis",
+          "tocan"
+        ],
+        "preterite": [
+          "toqué",
+          "tocaste",
+          "tocó",
+          "tocamos",
+          "tocasteis",
+          "tocaron"
+        ],
+        "imperfect": [
+          "tocaba",
+          "tocabas",
+          "tocaba",
+          "tocábamos",
+          "tocabais",
+          "tocaban"
+        ]
+      }
+    },
+    {
+      "spanish": "tomar",
+      "english": "to take / drink",
+      "chapter": 2,
+      "conjugations": {
+        "present": [
+          "tomo",
+          "tomas",
+          "toma",
+          "tomamos",
+          "tomáis",
+          "toman"
+        ],
+        "preterite": [
+          "tomé",
+          "tomaste",
+          "tomó",
+          "tomamos",
+          "tomasteis",
+          "tomaron"
+        ],
+        "imperfect": [
+          "tomaba",
+          "tomabas",
+          "tomaba",
+          "tomábamos",
+          "tomabais",
+          "tomaban"
+        ]
+      }
+    },
+    {
+      "spanish": "trabajar",
+      "english": "to work",
+      "chapter": 2,
+      "conjugations": {
+        "present": [
+          "trabajo",
+          "trabajas",
+          "trabaja",
+          "trabajamos",
+          "trabajáis",
+          "trabajan"
+        ],
+        "preterite": [
+          "trabajé",
+          "trabajaste",
+          "trabajó",
+          "trabajamos",
+          "trabajasteis",
+          "trabajaron"
+        ],
+        "imperfect": [
+          "trabajaba",
+          "trabajabas",
+          "trabajaba",
+          "trabajábamos",
+          "trabajabais",
+          "trabajaban"
+        ]
+      }
+    },
+    {
+      "spanish": "bailar",
+      "english": "to dance",
+      "chapter": 2,
+      "conjugations": {
+        "present": [
+          "bailo",
+          "bailas",
+          "baila",
+          "bailamos",
+          "bailáis",
+          "bailan"
+        ],
+        "preterite": [
+          "bailé",
+          "bailaste",
+          "bailó",
+          "bailamos",
+          "bailasteis",
+          "bailaron"
+        ],
+        "imperfect": [
+          "bailaba",
+          "bailabas",
+          "bailaba",
+          "bailábamos",
+          "bailabais",
+          "bailaban"
+        ]
+      }
+    },
+    {
+      "spanish": "buscar",
+      "english": "to look for",
+      "chapter": 2,
+      "conjugations": {
+        "present": [
+          "busco",
+          "buscas",
+          "busca",
+          "buscamos",
+          "buscáis",
+          "buscan"
+        ],
+        "preterite": [
+          "busqué",
+          "buscaste",
+          "buscó",
+          "buscamos",
+          "buscasteis",
+          "buscaron"
+        ],
+        "imperfect": [
+          "buscaba",
+          "buscabas",
+          "buscaba",
+          "buscábamos",
+          "buscabais",
+          "buscaban"
+        ]
+      }
+    },
+    {
+      "spanish": "cantar",
+      "english": "to sing",
+      "chapter": 2,
+      "conjugations": {
+        "present": [
+          "canto",
+          "cantas",
+          "canta",
+          "cantamos",
+          "cantáis",
+          "cantan"
+        ],
+        "preterite": [
+          "canté",
+          "cantaste",
+          "cantó",
+          "cantamos",
+          "cantasteis",
+          "cantaron"
+        ],
+        "imperfect": [
+          "cantaba",
+          "cantabas",
+          "cantaba",
+          "cantábamos",
+          "cantabais",
+          "cantaban"
+        ]
+      }
+    },
+    {
+      "spanish": "comprar",
+      "english": "to buy",
+      "chapter": 2,
+      "conjugations": {
+        "present": [
+          "compro",
+          "compras",
+          "compra",
+          "compramos",
+          "compráis",
+          "compran"
+        ],
+        "preterite": [
+          "compré",
+          "compraste",
+          "compró",
+          "compramos",
+          "comprasteis",
+          "compraron"
+        ],
+        "imperfect": [
+          "compraba",
+          "comprabas",
+          "compraba",
+          "comprábamos",
+          "comprabais",
+          "compraban"
+        ]
+      }
+    },
+    {
+      "spanish": "desear",
+      "english": "to wish / desire",
+      "chapter": 2,
+      "conjugations": {
+        "present": [
+          "deseo",
+          "deseas",
+          "desea",
+          "deseamos",
+          "deseáis",
+          "desean"
+        ],
+        "preterite": [
+          "deseé",
+          "deseaste",
+          "deseó",
+          "deseamos",
+          "deseasteis",
+          "desearon"
+        ],
+        "imperfect": [
+          "deseaba",
+          "deseabas",
+          "deseaba",
+          "deseábamos",
+          "deseabais",
+          "deseaban"
+        ]
+      }
+    },
+    {
+      "spanish": "enseñar",
+      "english": "to teach / show",
+      "chapter": 2,
+      "conjugations": {
+        "present": [
+          "enseño",
+          "enseñas",
+          "enseña",
+          "enseñamos",
+          "enseñáis",
+          "enseñan"
+        ],
+        "preterite": [
+          "enseñé",
+          "enseñaste",
+          "enseñó",
+          "enseñamos",
+          "enseñasteis",
+          "enseñaron"
+        ],
+        "imperfect": [
+          "enseñaba",
+          "enseñabas",
+          "enseñaba",
+          "enseñábamos",
+          "enseñabais",
+          "enseñaban"
+        ]
+      }
+    },
+    {
+      "spanish": "escuchar",
+      "english": "to listen",
+      "chapter": 2,
+      "conjugations": {
+        "present": [
+          "escucho",
+          "escuchas",
+          "escucha",
+          "escuchamos",
+          "escucháis",
+          "escuchan"
+        ],
+        "preterite": [
+          "escuché",
+          "escuchaste",
+          "escuchó",
+          "escuchamos",
+          "escuchasteis",
+          "escucharon"
+        ],
+        "imperfect": [
+          "escuchaba",
+          "escuchabas",
+          "escuchaba",
+          "escuchábamos",
+          "escuchabais",
+          "escuchaban"
+        ]
+      }
+    },
+    {
+      "spanish": "estar",
+      "english": "to be (state/location)",
+      "chapter": 2,
+      "conjugations": {
+        "present": [
+          "estoy",
+          "estás",
+          "está",
+          "estamos",
+          "estáis",
+          "están"
+        ],
+        "preterite": [
+          "estuve",
+          "estuviste",
+          "estuvo",
+          "estuvimos",
+          "estuvisteis",
+          "estuvieron"
+        ],
+        "imperfect": [
+          "estaba",
+          "estabas",
+          "estaba",
+          "estábamos",
+          "estabais",
+          "estaban"
+        ]
+      }
+    },
+    {
+      "spanish": "estudiar",
+      "english": "to study",
+      "chapter": 2,
+      "conjugations": {
+        "present": [
+          "estudio",
+          "estudias",
+          "estudia",
+          "estudiamos",
+          "estudiáis",
+          "estudian"
+        ],
+        "preterite": [
+          "estudié",
+          "estudiaste",
+          "estudió",
+          "estudiamos",
+          "estudiasteis",
+          "estudiaron"
+        ],
+        "imperfect": [
+          "estudiaba",
+          "estudiabas",
+          "estudiaba",
+          "estudiábamos",
+          "estudiabais",
+          "estudiaban"
+        ]
+      }
+    },
+    {
+      "spanish": "abrir",
+      "english": "to open",
+      "chapter": 3,
+      "conjugations": {
+        "present": [
+          "abro",
+          "abres",
+          "abre",
+          "abrimos",
+          "abrís",
+          "abren"
+        ],
+        "preterite": [
+          "abrí",
+          "abriste",
+          "abrió",
+          "abrimos",
+          "abristeis",
+          "abrieron"
+        ],
+        "imperfect": [
+          "abría",
+          "abrías",
+          "abría",
+          "abríamos",
+          "abríais",
+          "abrían"
+        ]
+      }
+    },
+    {
+      "spanish": "aprender",
+      "english": "to learn",
+      "chapter": 3,
+      "conjugations": {
+        "present": [
+          "aprendo",
+          "aprendes",
+          "aprende",
+          "aprendemos",
+          "aprendéis",
+          "aprenden"
+        ],
+        "preterite": [
+          "aprendí",
+          "aprendiste",
+          "aprendió",
+          "aprendimos",
+          "aprendisteis",
+          "aprendieron"
+        ],
+        "imperfect": [
+          "aprendía",
+          "aprendías",
+          "aprendía",
+          "aprendíamos",
+          "aprendíais",
+          "aprendían"
+        ]
+      }
+    },
+    {
+      "spanish": "asistir",
+      "english": "to attend",
+      "chapter": 3,
+      "conjugations": {
+        "present": [
+          "asisto",
+          "asistes",
+          "asiste",
+          "asistimos",
+          "asistís",
+          "asisten"
+        ],
+        "preterite": [
+          "asistí",
+          "asististe",
+          "asistió",
+          "asistimos",
+          "asististeis",
+          "asistieron"
+        ],
+        "imperfect": [
+          "asistía",
+          "asistías",
+          "asistía",
+          "asistíamos",
+          "asistíais",
+          "asistían"
+        ]
+      }
+    },
+    {
+      "spanish": "beber",
+      "english": "to drink",
+      "chapter": 3,
+      "conjugations": {
+        "present": [
+          "bebo",
+          "bebes",
+          "bebe",
+          "bebemos",
+          "bebéis",
+          "beben"
+        ],
+        "preterite": [
+          "bebí",
+          "bebiste",
+          "bebió",
+          "bebimos",
+          "bebisteis",
+          "bebieron"
+        ],
+        "imperfect": [
+          "bebía",
+          "bebías",
+          "bebía",
+          "bebíamos",
+          "bebíais",
+          "bebían"
+        ]
+      }
+    },
+    {
+      "spanish": "comer",
+      "english": "to eat",
+      "chapter": 3,
+      "conjugations": {
+        "present": [
+          "como",
+          "comes",
+          "come",
+          "comemos",
+          "coméis",
+          "comen"
+        ],
+        "preterite": [
+          "comí",
+          "comiste",
+          "comió",
+          "comimos",
+          "comisteis",
+          "comieron"
+        ],
+        "imperfect": [
+          "comía",
+          "comías",
+          "comía",
+          "comíamos",
+          "comíais",
+          "comían"
+        ]
+      }
+    },
+    {
+      "spanish": "comprender",
+      "english": "to understand",
+      "chapter": 3,
+      "conjugations": {
+        "present": [
+          "comprendo",
+          "comprendes",
+          "comprende",
+          "comprendemos",
+          "comprendéis",
+          "comprenden"
+        ],
+        "preterite": [
+          "comprendí",
+          "comprendiste",
+          "comprendió",
+          "comprendimos",
+          "comprendisteis",
+          "comprendieron"
+        ],
+        "imperfect": [
+          "comprendía",
+          "comprendías",
+          "comprendía",
+          "comprendíamos",
+          "comprendíais",
+          "comprendían"
+        ]
+      }
+    },
+    {
+      "spanish": "creer",
+      "english": "to believe",
+      "chapter": 3,
+      "conjugations": {
+        "present": [
+          "creo",
+          "crees",
+          "cree",
+          "creemos",
+          "creéis",
+          "creen"
+        ],
+        "preterite": [
+          "creí",
+          "creíste",
+          "creyó",
+          "creímos",
+          "creísteis",
+          "creyeron"
+        ],
+        "imperfect": [
+          "creía",
+          "creías",
+          "creía",
+          "creíamos",
+          "creíais",
+          "creían"
+        ]
+      }
+    },
+    {
+      "spanish": "deber",
+      "english": "to owe / should",
+      "chapter": 3,
+      "conjugations": {
+        "present": [
+          "debo",
+          "debes",
+          "debe",
+          "debemos",
+          "debéis",
+          "deben"
+        ],
+        "preterite": [
+          "debí",
+          "debiste",
+          "debió",
+          "debimos",
+          "debisteis",
+          "debieron"
+        ],
+        "imperfect": [
+          "debía",
+          "debías",
+          "debía",
+          "debíamos",
+          "debíais",
+          "debían"
+        ]
+      }
+    },
+    {
+      "spanish": "escribir",
+      "english": "to write",
+      "chapter": 3,
+      "conjugations": {
+        "present": [
+          "escribo",
+          "escribes",
+          "escribe",
+          "escribimos",
+          "escribís",
+          "escriben"
+        ],
+        "preterite": [
+          "escribí",
+          "escribiste",
+          "escribió",
+          "escribimos",
+          "escribisteis",
+          "escribieron"
+        ],
+        "imperfect": [
+          "escribía",
+          "escribías",
+          "escribía",
+          "escribíamos",
+          "escribíais",
+          "escribían"
+        ]
+      }
+    },
+    {
+      "spanish": "leer",
+      "english": "to read",
+      "chapter": 3,
+      "conjugations": {
+        "present": [
+          "leo",
+          "lees",
+          "lee",
+          "leemos",
+          "leéis",
+          "leen"
+        ],
+        "preterite": [
+          "leí",
+          "leíste",
+          "leyó",
+          "leímos",
+          "leísteis",
+          "leyeron"
+        ],
+        "imperfect": [
+          "leía",
+          "leías",
+          "leía",
+          "leíamos",
+          "leíais",
+          "leían"
+        ]
+      }
+    },
+    {
+      "spanish": "llegar",
+      "english": "to arrive",
+      "chapter": 3,
+      "conjugations": {
+        "present": [
+          "llego",
+          "llegas",
+          "llega",
+          "llegamos",
+          "llegáis",
+          "llegan"
+        ],
+        "preterite": [
+          "llegué",
+          "llegaste",
+          "llegó",
+          "llegamos",
+          "llegasteis",
+          "llegaron"
+        ],
+        "imperfect": [
+          "llegaba",
+          "llegabas",
+          "llegaba",
+          "llegábamos",
+          "llegabais",
+          "llegaban"
+        ]
+      }
+    },
+    {
+      "spanish": "mirar",
+      "english": "to watch / look at",
+      "chapter": 3,
+      "conjugations": {
+        "present": [
+          "miro",
+          "miras",
+          "mira",
+          "miramos",
+          "miráis",
+          "miran"
+        ],
+        "preterite": [
+          "miré",
+          "miraste",
+          "miró",
+          "miramos",
+          "mirasteis",
+          "miraron"
+        ],
+        "imperfect": [
+          "miraba",
+          "mirabas",
+          "miraba",
+          "mirábamos",
+          "mirabais",
+          "miraban"
+        ]
+      }
+    },
+    {
+      "spanish": "recibir",
+      "english": "to receive",
+      "chapter": 3,
+      "conjugations": {
+        "present": [
+          "recibo",
+          "recibes",
+          "recibe",
+          "recibimos",
+          "recibís",
+          "reciben"
+        ],
+        "preterite": [
+          "recibí",
+          "recibiste",
+          "recibió",
+          "recibimos",
+          "recibisteis",
+          "recibieron"
+        ],
+        "imperfect": [
+          "recibía",
+          "recibías",
+          "recibía",
+          "recibíamos",
+          "recibíais",
+          "recibían"
+        ]
+      }
+    },
+    {
+      "spanish": "ser",
+      "english": "to be (identity)",
+      "chapter": 3,
+      "conjugations": {
+        "present": [
+          "soy",
+          "eres",
+          "es",
+          "somos",
+          "sois",
+          "son"
+        ],
+        "preterite": [
+          "fui",
+          "fuiste",
+          "fue",
+          "fuimos",
+          "fuisteis",
+          "fueron"
+        ],
+        "imperfect": [
+          "era",
+          "eras",
+          "era",
+          "éramos",
+          "erais",
+          "eran"
+        ]
+      }
+    },
+    {
+      "spanish": "vender",
+      "english": "to sell",
+      "chapter": 3,
+      "conjugations": {
+        "present": [
+          "vendo",
+          "vendes",
+          "vende",
+          "vendemos",
+          "vendéis",
+          "venden"
+        ],
+        "preterite": [
+          "vendí",
+          "vendiste",
+          "vendió",
+          "vendimos",
+          "vendisteis",
+          "vendieron"
+        ],
+        "imperfect": [
+          "vendía",
+          "vendías",
+          "vendía",
+          "vendíamos",
+          "vendíais",
+          "vendían"
+        ]
+      }
+    },
+    {
+      "spanish": "vivir",
+      "english": "to live",
+      "chapter": 3,
+      "conjugations": {
+        "present": [
+          "vivo",
+          "vives",
+          "vive",
+          "vivimos",
+          "vivís",
+          "viven"
+        ],
+        "preterite": [
+          "viví",
+          "viviste",
+          "vivió",
+          "vivimos",
+          "vivisteis",
+          "vivieron"
+        ],
+        "imperfect": [
+          "vivía",
+          "vivías",
+          "vivía",
+          "vivíamos",
+          "vivíais",
+          "vivían"
+        ]
+      }
+    },
+    {
+      "spanish": "ir",
+      "english": "to go",
+      "chapter": 4,
+      "conjugations": {
+        "present": [
+          "voy",
+          "vas",
+          "va",
+          "vamos",
+          "vais",
+          "van"
+        ],
+        "preterite": [
+          "fui",
+          "fuiste",
+          "fue",
+          "fuimos",
+          "fuisteis",
+          "fueron"
+        ],
+        "imperfect": [
+          "iba",
+          "ibas",
+          "iba",
+          "íbamos",
+          "ibais",
+          "iban"
+        ]
+      }
+    },
+    {
+      "spanish": "poder",
+      "english": "to be able to",
+      "chapter": 4,
+      "conjugations": {
+        "present": [
+          "puedo",
+          "puedes",
+          "puede",
+          "podemos",
+          "podéis",
+          "pueden"
+        ],
+        "preterite": [
+          "pude",
+          "pudiste",
+          "pudo",
+          "pudimos",
+          "pudisteis",
+          "pudieron"
+        ],
+        "imperfect": [
+          "podía",
+          "podías",
+          "podía",
+          "podíamos",
+          "podíais",
+          "podían"
+        ]
+      }
+    },
+    {
+      "spanish": "preferir",
+      "english": "to prefer",
+      "chapter": 4,
+      "conjugations": {
+        "present": [
+          "prefiero",
+          "prefieres",
+          "prefiere",
+          "preferimos",
+          "preferís",
+          "prefieren"
+        ],
+        "preterite": [
+          "preferí",
+          "preferiste",
+          "prefirió",
+          "preferimos",
+          "preferisteis",
+          "prefirieron"
+        ],
+        "imperfect": [
+          "prefería",
+          "preferías",
+          "prefería",
+          "preferíamos",
+          "preferíais",
+          "preferían"
+        ]
+      }
+    },
+    {
+      "spanish": "querer",
+      "english": "to want / love",
+      "chapter": 4,
+      "conjugations": {
+        "present": [
+          "quiero",
+          "quieres",
+          "quiere",
+          "queremos",
+          "queréis",
+          "quieren"
+        ],
+        "preterite": [
+          "quise",
+          "quisiste",
+          "quiso",
+          "quisimos",
+          "quisisteis",
+          "quisieron"
+        ],
+        "imperfect": [
+          "quería",
+          "querías",
+          "quería",
+          "queríamos",
+          "queríais",
+          "querían"
+        ]
+      }
+    },
+    {
+      "spanish": "tener",
+      "english": "to have",
+      "chapter": 4,
+      "conjugations": {
+        "present": [
+          "tengo",
+          "tienes",
+          "tiene",
+          "tenemos",
+          "tenéis",
+          "tienen"
+        ],
+        "preterite": [
+          "tuve",
+          "tuviste",
+          "tuvo",
+          "tuvimos",
+          "tuvisteis",
+          "tuvieron"
+        ],
+        "imperfect": [
+          "tenía",
+          "tenías",
+          "tenía",
+          "teníamos",
+          "teníais",
+          "tenían"
+        ]
+      }
+    },
+    {
+      "spanish": "venir",
+      "english": "to come",
+      "chapter": 4,
+      "conjugations": {
+        "present": [
+          "vengo",
+          "vienes",
+          "viene",
+          "venimos",
+          "venís",
+          "vienen"
+        ],
+        "preterite": [
+          "vine",
+          "viniste",
+          "vino",
+          "vinimos",
+          "vinisteis",
+          "vinieron"
+        ],
+        "imperfect": [
+          "venía",
+          "venías",
+          "venía",
+          "veníamos",
+          "veníais",
+          "venían"
+        ]
+      }
+    },
+    {
+      "spanish": "almorzar",
+      "english": "to eat lunch",
+      "chapter": 5,
+      "conjugations": {
+        "present": [
+          "almuerzo",
+          "almuerzas",
+          "almuerza",
+          "almorzamos",
+          "almorzáis",
+          "almuerzan"
+        ],
+        "preterite": [
+          "almorcé",
+          "almorzaste",
+          "almorzó",
+          "almorzamos",
+          "almorzasteis",
+          "almorzaron"
+        ],
+        "imperfect": [
+          "almorzaba",
+          "almorzabas",
+          "almorzaba",
+          "almorzábamos",
+          "almorzabais",
+          "almorzaban"
+        ]
+      }
+    },
+    {
+      "spanish": "cerrar",
+      "english": "to close",
+      "chapter": 5,
+      "conjugations": {
+        "present": [
+          "cierro",
+          "cierras",
+          "cierra",
+          "cerramos",
+          "cerráis",
+          "cierran"
+        ],
+        "preterite": [
+          "cerré",
+          "cerraste",
+          "cerró",
+          "cerramos",
+          "cerrasteis",
+          "cerraron"
+        ],
+        "imperfect": [
+          "cerraba",
+          "cerrabas",
+          "cerraba",
+          "cerrábamos",
+          "cerrabais",
+          "cerraban"
+        ]
+      }
+    },
+    {
+      "spanish": "descansar",
+      "english": "to rest",
+      "chapter": 5,
+      "conjugations": {
+        "present": [
+          "descanso",
+          "descansas",
+          "descansa",
+          "descansamos",
+          "descansáis",
+          "descansan"
+        ],
+        "preterite": [
+          "descansé",
+          "descansaste",
+          "descansó",
+          "descansamos",
+          "descansasteis",
+          "descansaron"
+        ],
+        "imperfect": [
+          "descansaba",
+          "descansabas",
+          "descansaba",
+          "descansábamos",
+          "descansabais",
+          "descansaban"
+        ]
+      }
+    },
+    {
+      "spanish": "dormir",
+      "english": "to sleep",
+      "chapter": 5,
+      "conjugations": {
+        "present": [
+          "duermo",
+          "duermes",
+          "duerme",
+          "dormimos",
+          "dormís",
+          "duermen"
+        ],
+        "preterite": [
+          "dormí",
+          "dormiste",
+          "durmió",
+          "dormimos",
+          "dormisteis",
+          "durmieron"
+        ],
+        "imperfect": [
+          "dormía",
+          "dormías",
+          "dormía",
+          "dormíamos",
+          "dormíais",
+          "dormían"
+        ]
+      }
+    },
+    {
+      "spanish": "empezar",
+      "english": "to begin",
+      "chapter": 5,
+      "conjugations": {
+        "present": [
+          "empiezo",
+          "empiezas",
+          "empieza",
+          "empezamos",
+          "empezáis",
+          "empiezan"
+        ],
+        "preterite": [
+          "empecé",
+          "empezaste",
+          "empezó",
+          "empezamos",
+          "empezasteis",
+          "empezaron"
+        ],
+        "imperfect": [
+          "empezaba",
+          "empezabas",
+          "empezaba",
+          "empezábamos",
+          "empezabais",
+          "empezaban"
+        ]
+      }
+    },
+    {
+      "spanish": "entender",
+      "english": "to understand",
+      "chapter": 5,
+      "conjugations": {
+        "present": [
+          "entiendo",
+          "entiendes",
+          "entiende",
+          "entendemos",
+          "entendéis",
+          "entienden"
+        ],
+        "preterite": [
+          "entendí",
+          "entendiste",
+          "entendió",
+          "entendimos",
+          "entendisteis",
+          "entendieron"
+        ],
+        "imperfect": [
+          "entendía",
+          "entendías",
+          "entendía",
+          "entendíamos",
+          "entendíais",
+          "entendían"
+        ]
+      }
+    },
+    {
+      "spanish": "hacer",
+      "english": "to do / make",
+      "chapter": 5,
+      "conjugations": {
+        "present": [
+          "hago",
+          "haces",
+          "hace",
+          "hacemos",
+          "hacéis",
+          "hacen"
+        ],
+        "preterite": [
+          "hice",
+          "hiciste",
+          "hizo",
+          "hicimos",
+          "hicisteis",
+          "hicieron"
+        ],
+        "imperfect": [
+          "hacía",
+          "hacías",
+          "hacía",
+          "hacíamos",
+          "hacíais",
+          "hacían"
+        ]
+      }
+    },
+    {
+      "spanish": "jugar",
+      "english": "to play (a game/sport)",
+      "chapter": 5,
+      "conjugations": {
+        "present": [
+          "juego",
+          "juegas",
+          "juega",
+          "jugamos",
+          "jugáis",
+          "juegan"
+        ],
+        "preterite": [
+          "jugué",
+          "jugaste",
+          "jugó",
+          "jugamos",
+          "jugasteis",
+          "jugaron"
+        ],
+        "imperfect": [
+          "jugaba",
+          "jugabas",
+          "jugaba",
+          "jugábamos",
+          "jugabais",
+          "jugaban"
+        ]
+      }
+    },
+    {
+      "spanish": "oír",
+      "english": "to hear",
+      "chapter": 5,
+      "conjugations": {
+        "present": [
+          "oigo",
+          "oyes",
+          "oye",
+          "oímos",
+          "oís",
+          "oyen"
+        ],
+        "preterite": [
+          "oí",
+          "oíste",
+          "oyó",
+          "oímos",
+          "oísteis",
+          "oyeron"
+        ],
+        "imperfect": [
+          "oía",
+          "oías",
+          "oía",
+          "oíamos",
+          "oíais",
+          "oían"
+        ]
+      }
+    },
+    {
+      "spanish": "pedir",
+      "english": "to ask for / order",
+      "chapter": 5,
+      "conjugations": {
+        "present": [
+          "pido",
+          "pides",
+          "pide",
+          "pedimos",
+          "pedís",
+          "piden"
+        ],
+        "preterite": [
+          "pedí",
+          "pediste",
+          "pidió",
+          "pedimos",
+          "pedisteis",
+          "pidieron"
+        ],
+        "imperfect": [
+          "pedía",
+          "pedías",
+          "pedía",
+          "pedíamos",
+          "pedíais",
+          "pedían"
+        ]
+      }
+    },
+    {
+      "spanish": "pensar",
+      "english": "to think",
+      "chapter": 5,
+      "conjugations": {
+        "present": [
+          "pienso",
+          "piensas",
+          "piensa",
+          "pensamos",
+          "pensáis",
+          "piensan"
+        ],
+        "preterite": [
+          "pensé",
+          "pensaste",
+          "pensó",
+          "pensamos",
+          "pensasteis",
+          "pensaron"
+        ],
+        "imperfect": [
+          "pensaba",
+          "pensabas",
+          "pensaba",
+          "pensábamos",
+          "pensabais",
+          "pensaban"
+        ]
+      }
+    },
+    {
+      "spanish": "perder",
+      "english": "to lose",
+      "chapter": 5,
+      "conjugations": {
+        "present": [
+          "pierdo",
+          "pierdes",
+          "pierde",
+          "perdemos",
+          "perdéis",
+          "pierden"
+        ],
+        "preterite": [
+          "perdí",
+          "perdiste",
+          "perdió",
+          "perdimos",
+          "perdisteis",
+          "perdieron"
+        ],
+        "imperfect": [
+          "perdía",
+          "perdías",
+          "perdía",
+          "perdíamos",
+          "perdíais",
+          "perdían"
+        ]
+      }
+    },
+    {
+      "spanish": "poner",
+      "english": "to put / place",
+      "chapter": 5,
+      "conjugations": {
+        "present": [
+          "pongo",
+          "pones",
+          "pone",
+          "ponemos",
+          "ponéis",
+          "ponen"
+        ],
+        "preterite": [
+          "puse",
+          "pusiste",
+          "puso",
+          "pusimos",
+          "pusisteis",
+          "pusieron"
+        ],
+        "imperfect": [
+          "ponía",
+          "ponías",
+          "ponía",
+          "poníamos",
+          "poníais",
+          "ponían"
+        ]
+      }
+    },
+    {
+      "spanish": "salir",
+      "english": "to leave / go out",
+      "chapter": 5,
+      "conjugations": {
+        "present": [
+          "salgo",
+          "sales",
+          "sale",
+          "salimos",
+          "salís",
+          "salen"
+        ],
+        "preterite": [
+          "salí",
+          "saliste",
+          "salió",
+          "salimos",
+          "salisteis",
+          "salieron"
+        ],
+        "imperfect": [
+          "salía",
+          "salías",
+          "salía",
+          "salíamos",
+          "salíais",
+          "salían"
+        ]
+      }
+    },
+    {
+      "spanish": "servir",
+      "english": "to serve",
+      "chapter": 5,
+      "conjugations": {
+        "present": [
+          "sirvo",
+          "sirves",
+          "sirve",
+          "servimos",
+          "servís",
+          "sirven"
+        ],
+        "preterite": [
+          "serví",
+          "serviste",
+          "sirvió",
+          "servimos",
+          "servisteis",
+          "sirvieron"
+        ],
+        "imperfect": [
+          "servía",
+          "servías",
+          "servía",
+          "servíamos",
+          "servíais",
+          "servían"
+        ]
+      }
+    },
+    {
+      "spanish": "traer",
+      "english": "to bring",
+      "chapter": 5,
+      "conjugations": {
+        "present": [
+          "traigo",
+          "traes",
+          "trae",
+          "traemos",
+          "traéis",
+          "traen"
+        ],
+        "preterite": [
+          "traje",
+          "trajiste",
+          "trajo",
+          "trajimos",
+          "trajisteis",
+          "trajeron"
+        ],
+        "imperfect": [
+          "traía",
+          "traías",
+          "traía",
+          "traíamos",
+          "traíais",
+          "traían"
+        ]
+      }
+    },
+    {
+      "spanish": "ver",
+      "english": "to see",
+      "chapter": 5,
+      "conjugations": {
+        "present": [
+          "veo",
+          "ves",
+          "ve",
+          "vemos",
+          "veis",
+          "ven"
+        ],
+        "preterite": [
+          "vi",
+          "viste",
+          "vio",
+          "vimos",
+          "visteis",
+          "vieron"
+        ],
+        "imperfect": [
+          "veía",
+          "veías",
+          "veía",
+          "veíamos",
+          "veíais",
+          "veían"
+        ]
+      }
+    },
+    {
+      "spanish": "volver",
+      "english": "to return",
+      "chapter": 5,
+      "conjugations": {
+        "present": [
+          "vuelvo",
+          "vuelves",
+          "vuelve",
+          "volvemos",
+          "volvéis",
+          "vuelven"
+        ],
+        "preterite": [
+          "volví",
+          "volviste",
+          "volvió",
+          "volvimos",
+          "volvisteis",
+          "volvieron"
+        ],
+        "imperfect": [
+          "volvía",
+          "volvías",
+          "volvía",
+          "volvíamos",
+          "volvíais",
+          "volvían"
+        ]
+      }
+    },
+    {
+      "spanish": "acostarse",
+      "english": "to go to bed",
+      "chapter": 5,
+      "conjugations": {
+        "present": [
+          "me acuesto",
+          "te acuestas",
+          "se acuesta",
+          "nos acostamos",
+          "os acostáis",
+          "se acuestan"
+        ],
+        "preterite": [
+          "me acosté",
+          "te acostaste",
+          "se acostó",
+          "nos acostamos",
+          "os acostasteis",
+          "se acostaron"
+        ],
+        "imperfect": [
+          "me acostaba",
+          "te acostabas",
+          "se acostaba",
+          "nos acostábamos",
+          "os acostabais",
+          "se acostaban"
+        ]
+      },
+      "type": "reflexive"
+    },
+    {
+      "spanish": "afeitarse",
+      "english": "to shave oneself",
+      "chapter": 5,
+      "conjugations": {
+        "present": [
+          "me afeito",
+          "te afeitas",
+          "se afeita",
+          "nos afeitamos",
+          "os afeitáis",
+          "se afeitan"
+        ],
+        "preterite": [
+          "me afeité",
+          "te afeitaste",
+          "se afeitó",
+          "nos afeitamos",
+          "os afeitasteis",
+          "se afeitaron"
+        ],
+        "imperfect": [
+          "me afeitaba",
+          "te afeitabas",
+          "se afeitaba",
+          "nos afeitábamos",
+          "os afeitabais",
+          "se afeitaban"
+        ]
+      },
+      "type": "reflexive"
+    },
+    {
+        "spanish": "bajarse",
+        "english": "to get off / to get down",
+        "chapter": 8,
+        "conjugations": {
+            "present": [
+                "me bajo",
+                "te bajas",
+                "se baja",
+                "nos bajamos",
+                "os bajáis",
+                "se bajan"
+            ],
+            "preterite": [
+                "me bajé",
+                "te bajaste",
+                "se bajó",
+                "nos bajamos",
+                "os bajasteis",
+                "se bajaron"
+            ],
+            "imperfect": [
+                "me bajaba",
+                "te bajabas",
+                "se bajaba",
+                "nos bajábamos",
+                "os bajabais",
+                "se bajaban"
+            ]
+        }
+    },
+    {
+      "spanish": "cepillarse",
+      "english": "to brush oneself",
+      "chapter": 5,
+      "conjugations": {
+        "present": [
+          "me cepillo",
+          "te cepillas",
+          "se cepilla",
+          "nos cepillamos",
+          "os cepilláis",
+          "se cepillan"
+        ],
+        "preterite": [
+          "me cepillé",
+          "te cepillaste",
+          "se cepilló",
+          "nos cepillamos",
+          "os cepillasteis",
+          "se cepillaron"
+        ],
+        "imperfect": [
+          "me cepillaba",
+          "te cepillabas",
+          "se cepillaba",
+          "nos cepillábamos",
+          "os cepillabais",
+          "se cepillaban"
+        ]
+      },
+      "type": "reflexive"
+    },
+    {
+      "spanish": "despertarse",
+      "english": "to wake up",
+      "chapter": 5,
+      "conjugations": {
+        "present": [
+          "me despierto",
+          "te despiertas",
+          "se despierta",
+          "nos despertamos",
+          "os despertáis",
+          "se despiertan"
+        ],
+        "preterite": [
+          "me desperté",
+          "te despertaste",
+          "se despertó",
+          "nos despertamos",
+          "os despertasteis",
+          "se despertaron"
+        ],
+        "imperfect": [
+          "me despertaba",
+          "te despertabas",
+          "se despertaba",
+          "nos despertábamos",
+          "os despertabais",
+          "se despertaban"
+        ]
+      },
+      "type": "reflexive"
+    },
+    {
+      "spanish": "divertirse",
+      "english": "to have fun",
+      "chapter": 5,
+      "conjugations": {
+        "present": [
+          "me divierto",
+          "te diviertes",
+          "se divierte",
+          "nos divertimos",
+          "os divertís",
+          "se divierten"
+        ],
+        "preterite": [
+          "me divertí",
+          "te divertiste",
+          "se divirtió",
+          "nos divertimos",
+          "os divertisteis",
+          "se divirtieron"
+        ],
+        "imperfect": [
+          "me divertía",
+          "te divertías",
+          "se divertía",
+          "nos divertíamos",
+          "os divertíais",
+          "se divertían"
+        ]
+      },
+      "type": "reflexive"
+    },
+    {
+      "spanish": "dormirse",
+      "english": "to fall asleep",
+      "chapter": 5,
+      "conjugations": {
+        "present": [
+          "me duermo",
+          "te duermes",
+          "se duerme",
+          "nos dormimos",
+          "os dormís",
+          "se duermen"
+        ],
+        "preterite": [
+          "me dormí",
+          "te dormiste",
+          "se durmió",
+          "nos dormimos",
+          "os dormisteis",
+          "se durmieron"
+        ],
+        "imperfect": [
+          "me dormía",
+          "te dormías",
+          "se dormía",
+          "nos dormíamos",
+          "os dormíais",
+          "se dormían"
+        ]
+      },
+      "type": "reflexive"
+    },
+    {
+      "spanish": "ducharse",
+      "english": "to shower",
+      "chapter": 5,
+      "conjugations": {
+        "present": [
+          "me ducho",
+          "te duchas",
+          "se ducha",
+          "nos duchamos",
+          "os ducháis",
+          "se duchan"
+        ],
+        "preterite": [
+          "me duché",
+          "te duchaste",
+          "se duchó",
+          "nos duchamos",
+          "os duchasteis",
+          "se ducharon"
+        ],
+        "imperfect": [
+          "me duchaba",
+          "te duchabas",
+          "se duchaba",
+          "nos duchábamos",
+          "os duchabais",
+          "se duchaban"
+        ]
+      },
+      "type": "reflexive"
+    },
+    {
+      "spanish": "levantarse",
+      "english": "to get up",
+      "chapter": 5,
+      "conjugations": {
+        "present": [
+          "me levanto",
+          "te levantas",
+          "se levanta",
+          "nos levantamos",
+          "os levantáis",
+          "se levantan"
+        ],
+        "preterite": [
+          "me levanté",
+          "te levantaste",
+          "se levantó",
+          "nos levantamos",
+          "os levantasteis",
+          "se levantaron"
+        ],
+        "imperfect": [
+          "me levantaba",
+          "te levantabas",
+          "se levantaba",
+          "nos levantábamos",
+          "os levantabais",
+          "se levantaban"
+        ]
+      },
+      "type": "reflexive"
+    },
+    {
+      "spanish": "llamarse",
+      "english": "to be called",
+      "chapter": 5,
+      "conjugations": {
+        "present": [
+          "me llamo",
+          "te llamas",
+          "se llama",
+          "nos llamamos",
+          "os llamáis",
+          "se llaman"
+        ],
+        "preterite": [
+          "me llamé",
+          "te llamaste",
+          "se llamó",
+          "nos llamamos",
+          "os llamasteis",
+          "se llamaron"
+        ],
+        "imperfect": [
+          "me llamaba",
+          "te llamabas",
+          "se llamaba",
+          "nos llamábamos",
+          "os llamabais",
+          "se llamaban"
+        ]
+      },
+      "type": "reflexive"
+    },
+    {
+      "spanish": "maquillarse",
+      "english": "to put on makeup",
+      "chapter": 5,
+      "conjugations": {
+        "present": [
+          "me maquillo",
+          "te maquillas",
+          "se maquilla",
+          "nos maquillamos",
+          "os maquilláis",
+          "se maquillan"
+        ],
+        "preterite": [
+          "me maquillé",
+          "te maquillaste",
+          "se maquilló",
+          "nos maquillamos",
+          "os maquillasteis",
+          "se maquillaron"
+        ],
+        "imperfect": [
+          "me maquillaba",
+          "te maquillabas",
+          "se maquillaba",
+          "nos maquillábamos",
+          "os maquillabais",
+          "se maquillaban"
+        ]
+      },
+      "type": "reflexive"
+    },
+    {
+      "spanish": "peinarse",
+      "english": "to comb one's hair",
+      "chapter": 5,
+      "conjugations": {
+        "present": [
+          "me peino",
+          "te peinas",
+          "se peina",
+          "nos peinamos",
+          "os peináis",
+          "se peinan"
+        ],
+        "preterite": [
+          "me peiné",
+          "te peinaste",
+          "se peinó",
+          "nos peinamos",
+          "os peinasteis",
+          "se peinaron"
+        ],
+        "imperfect": [
+          "me peinaba",
+          "te peinabas",
+          "se peinaba",
+          "nos peinábamos",
+          "os peinabais",
+          "se peinaban"
+        ]
+      },
+      "type": "reflexive"
+    },
+    {
+      "spanish": "ponerse",
+      "english": "to put on / become",
+      "chapter": 5,
+      "conjugations": {
+        "present": [
+          "me pongo",
+          "te pones",
+          "se pone",
+          "nos ponemos",
+          "os ponéis",
+          "se ponen"
+        ],
+        "preterite": [
+          "me puse",
+          "te pusiste",
+          "se puso",
+          "nos pusimos",
+          "os pusisteis",
+          "se pusieron"
+        ],
+        "imperfect": [
+          "me ponía",
+          "te ponías",
+          "se ponía",
+          "nos poníamos",
+          "os poníais",
+          "se ponían"
+        ]
+      },
+      "type": "reflexive",
+      "alsoListedInChapters": [
+        11
+      ]
+    },
+    {
+      "spanish": "quitarse",
+      "english": "to take off",
+      "chapter": 5,
+      "conjugations": {
+        "present": [
+          "me quito",
+          "te quitas",
+          "se quita",
+          "nos quitamos",
+          "os quitáis",
+          "se quitan"
+        ],
+        "preterite": [
+          "me quité",
+          "te quitaste",
+          "se quitó",
+          "nos quitamos",
+          "os quitasteis",
+          "se quitaron"
+        ],
+        "imperfect": [
+          "me quitaba",
+          "te quitabas",
+          "se quitaba",
+          "nos quitábamos",
+          "os quitabais",
+          "se quitaban"
+        ]
+      },
+      "type": "reflexive"
+    },
+    {
+      "spanish": "sentarse",
+      "english": "to sit down",
+      "chapter": 5,
+      "conjugations": {
+        "present": [
+          "me siento",
+          "te sientas",
+          "se sienta",
+          "nos sentamos",
+          "os sentáis",
+          "se sientan"
+        ],
+        "preterite": [
+          "me senté",
+          "te sentaste",
+          "se sentó",
+          "nos sentamos",
+          "os sentasteis",
+          "se sentaron"
+        ],
+        "imperfect": [
+          "me sentaba",
+          "te sentabas",
+          "se sentaba",
+          "nos sentábamos",
+          "os sentabais",
+          "se sentaban"
+        ]
+      },
+      "type": "reflexive"
+    },
+    {
+      "spanish": "vestirse",
+      "english": "to get dressed",
+      "chapter": 5,
+      "conjugations": {
+        "present": [
+          "me visto",
+          "te vistes",
+          "se viste",
+          "nos vestimos",
+          "os vestís",
+          "se visten"
+        ],
+        "preterite": [
+          "me vestí",
+          "te vestiste",
+          "se vistió",
+          "nos vestimos",
+          "os vestisteis",
+          "se vistieron"
+        ],
+        "imperfect": [
+          "me vestía",
+          "te vestías",
+          "se vestía",
+          "nos vestíamos",
+          "os vestíais",
+          "se vestían"
+        ]
+      },
+      "type": "reflexive"
+    },
+    {
+      "spanish": "celebrar",
+      "english": "to celebrate",
+      "chapter": 6,
+      "conjugations": {
+        "present": [
+          "celebro",
+          "celebras",
+          "celebra",
+          "celebramos",
+          "celebráis",
+          "celebran"
+        ],
+        "preterite": [
+          "celebré",
+          "celebraste",
+          "celebró",
+          "celebramos",
+          "celebrasteis",
+          "celebraron"
+        ],
+        "imperfect": [
+          "celebraba",
+          "celebrabas",
+          "celebraba",
+          "celebrábamos",
+          "celebrabais",
+          "celebraban"
+        ]
+      }
+    },
+    {
+      "spanish": "continuar",
+      "english": "to continue",
+      "chapter": 6,
+      "conjugations": {
+        "present": [
+          "continúo",
+          "continúas",
+          "continúa",
+          "continuamos",
+          "continuáis",
+          "continúan"
+        ],
+        "preterite": [
+          "continué",
+          "continuaste",
+          "continuó",
+          "continuamos",
+          "continuasteis",
+          "continuaron"
+        ],
+        "imperfect": [
+          "continuaba",
+          "continuabas",
+          "continuaba",
+          "continuábamos",
+          "continuabais",
+          "continuaban"
+        ]
+      }
+    },
+    {
+      "spanish": "pasar",
+      "english": "to pass / spend time",
+      "chapter": 6,
+      "conjugations": {
+        "present": [
+          "paso",
+          "pasas",
+          "pasa",
+          "pasamos",
+          "pasáis",
+          "pasan"
+        ],
+        "preterite": [
+          "pasé",
+          "pasaste",
+          "pasó",
+          "pasamos",
+          "pasasteis",
+          "pasaron"
+        ],
+        "imperfect": [
+          "pasaba",
+          "pasabas",
+          "pasaba",
+          "pasábamos",
+          "pasabais",
+          "pasaban"
+        ]
+      }
+    },
+    {
+      "spanish": "quedar",
+      "english": "to remain / arrange to meet",
+      "chapter": 6,
+      "conjugations": {
+        "present": [
+          "quedo",
+          "quedas",
+          "queda",
+          "quedamos",
+          "quedáis",
+          "quedan"
+        ],
+        "preterite": [
+          "quedé",
+          "quedaste",
+          "quedó",
+          "quedamos",
+          "quedasteis",
+          "quedaron"
+        ],
+        "imperfect": [
+          "quedaba",
+          "quedabas",
+          "quedaba",
+          "quedábamos",
+          "quedabais",
+          "quedaban"
+        ]
+      }
+    },
+    {
+      "spanish": "seguir",
+      "english": "to follow / continue",
+      "chapter": 6,
+      "conjugations": {
+        "present": [
+          "sigo",
+          "sigues",
+          "sigue",
+          "seguimos",
+          "seguís",
+          "siguen"
+        ],
+        "preterite": [
+          "seguí",
+          "seguiste",
+          "siguió",
+          "seguimos",
+          "seguisteis",
+          "siguieron"
+        ],
+        "imperfect": [
+          "seguía",
+          "seguías",
+          "seguía",
+          "seguíamos",
+          "seguíais",
+          "seguían"
+        ]
+      },
+      "reviewNote": "Original list says \"Sequin\"; interpreted as \"seguir\"."
+    },
+    {
+      "spanish": "repasar",
+      "english": "to review",
+      "chapter": 6,
+      "conjugations": {
+        "present": [
+          "repaso",
+          "repasas",
+          "repasa",
+          "repasamos",
+          "repasáis",
+          "repasan"
+        ],
+        "preterite": [
+          "repasé",
+          "repasaste",
+          "repasó",
+          "repasamos",
+          "repasasteis",
+          "repasaron"
+        ],
+        "imperfect": [
+          "repasaba",
+          "repasabas",
+          "repasaba",
+          "repasábamos",
+          "repasabais",
+          "repasaban"
+        ]
+      }
+    },
+    {
+      "spanish": "divertir",
+      "english": "to amuse",
+      "chapter": 6,
+      "conjugations": {
+        "present": [
+          "divierto",
+          "diviertes",
+          "divierte",
+          "divertimos",
+          "divertís",
+          "divierten"
+        ],
+        "preterite": [
+          "divertí",
+          "divertiste",
+          "divirtió",
+          "divertimos",
+          "divertisteis",
+          "divirtieron"
+        ],
+        "imperfect": [
+          "divertía",
+          "divertías",
+          "divertía",
+          "divertíamos",
+          "divertíais",
+          "divertían"
+        ]
+      }
+    },
+    {
+      "spanish": "quedarse",
+      "english": "to stay",
+      "chapter": 6,
+      "conjugations": {
+        "present": [
+          "me quedo",
+          "te quedas",
+          "se queda",
+          "nos quedamos",
+          "os quedáis",
+          "se quedan"
+        ],
+        "preterite": [
+          "me quedé",
+          "te quedaste",
+          "se quedó",
+          "nos quedamos",
+          "os quedasteis",
+          "se quedaron"
+        ],
+        "imperfect": [
+          "me quedaba",
+          "te quedabas",
+          "se quedaba",
+          "nos quedábamos",
+          "os quedabais",
+          "se quedaban"
+        ]
+      },
+      "type": "reflexive"
+    },
+    {
+      "spanish": "acabar",
+      "english": "to finish",
+      "chapter": 7,
+      "conjugations": {
+        "present": [
+          "acabo",
+          "acabas",
+          "acaba",
+          "acabamos",
+          "acabáis",
+          "acaban"
+        ],
+        "preterite": [
+          "acabé",
+          "acabaste",
+          "acabó",
+          "acabamos",
+          "acabasteis",
+          "acabaron"
+        ],
+        "imperfect": [
+          "acababa",
+          "acababas",
+          "acababa",
+          "acabábamos",
+          "acababais",
+          "acababan"
+        ]
+      }
+    },
+    {
+      "spanish": "ayudar",
+      "english": "to help",
+      "chapter": 7,
+      "conjugations": {
+        "present": [
+          "ayudo",
+          "ayudas",
+          "ayuda",
+          "ayudamos",
+          "ayudáis",
+          "ayudan"
+        ],
+        "preterite": [
+          "ayudé",
+          "ayudaste",
+          "ayudó",
+          "ayudamos",
+          "ayudasteis",
+          "ayudaron"
+        ],
+        "imperfect": [
+          "ayudaba",
+          "ayudabas",
+          "ayudaba",
+          "ayudábamos",
+          "ayudabais",
+          "ayudaban"
+        ]
+      }
+    },
+    {
+      "spanish": "conocer",
+      "english": "to know / meet",
+      "chapter": 7,
+      "conjugations": {
+        "present": [
+          "conozco",
+          "conoces",
+          "conoce",
+          "conocemos",
+          "conocéis",
+          "conocen"
+        ],
+        "preterite": [
+          "conocí",
+          "conociste",
+          "conoció",
+          "conocimos",
+          "conocisteis",
+          "conocieron"
+        ],
+        "imperfect": [
+          "conocía",
+          "conocías",
+          "conocía",
+          "conocíamos",
+          "conocíais",
+          "conocían"
+        ]
+      }
+    },
+    {
+      "spanish": "contestar",
+      "english": "to answer",
+      "chapter": 7,
+      "conjugations": {
+        "present": [
+          "contesto",
+          "contestas",
+          "contesta",
+          "contestamos",
+          "contestáis",
+          "contestan"
+        ],
+        "preterite": [
+          "contesté",
+          "contestaste",
+          "contestó",
+          "contestamos",
+          "contestasteis",
+          "contestaron"
+        ],
+        "imperfect": [
+          "contestaba",
+          "contestabas",
+          "contestaba",
+          "contestábamos",
+          "contestabais",
+          "contestaban"
+        ]
+      }
+    },
+    {
+      "spanish": "esperar",
+      "english": "to wait / hope",
+      "chapter": 7,
+      "conjugations": {
+        "present": [
+          "espero",
+          "esperas",
+          "espera",
+          "esperamos",
+          "esperáis",
+          "esperan"
+        ],
+        "preterite": [
+          "esperé",
+          "esperaste",
+          "esperó",
+          "esperamos",
+          "esperasteis",
+          "esperaron"
+        ],
+        "imperfect": [
+          "esperaba",
+          "esperabas",
+          "esperaba",
+          "esperábamos",
+          "esperabais",
+          "esperaban"
+        ]
+      }
+    },
+    {
+      "spanish": "invitar",
+      "english": "to invite",
+      "chapter": 7,
+      "conjugations": {
+        "present": [
+          "invito",
+          "invitas",
+          "invita",
+          "invitamos",
+          "invitáis",
+          "invitan"
+        ],
+        "preterite": [
+          "invité",
+          "invitaste",
+          "invitó",
+          "invitamos",
+          "invitasteis",
+          "invitaron"
+        ],
+        "imperfect": [
+          "invitaba",
+          "invitabas",
+          "invitaba",
+          "invitábamos",
+          "invitabais",
+          "invitaban"
+        ]
+      }
+    },
+    {
+      "spanish": "llamar",
+      "english": "to call",
+      "chapter": 7,
+      "conjugations": {
+        "present": [
+          "llamo",
+          "llamas",
+          "llama",
+          "llamamos",
+          "llamáis",
+          "llaman"
+        ],
+        "preterite": [
+          "llamé",
+          "llamaste",
+          "llamó",
+          "llamamos",
+          "llamasteis",
+          "llamaron"
+        ],
+        "imperfect": [
+          "llamaba",
+          "llamabas",
+          "llamaba",
+          "llamábamos",
+          "llamabais",
+          "llamaban"
+        ]
+      }
+    },
+    {
+      "spanish": "saber",
+      "english": "to know (facts)",
+      "chapter": 7,
+      "conjugations": {
+        "present": [
+          "sé",
+          "sabes",
+          "sabe",
+          "sabemos",
+          "sabéis",
+          "saben"
+        ],
+        "preterite": [
+          "supe",
+          "supiste",
+          "supo",
+          "supimos",
+          "supisteis",
+          "supieron"
+        ],
+        "imperfect": [
+          "sabía",
+          "sabías",
+          "sabía",
+          "sabíamos",
+          "sabíais",
+          "sabían"
+        ]
+      }
+    },
+    {
+      "spanish": "cenar",
+      "english": "to eat dinner",
+      "chapter": 7,
+      "conjugations": {
+        "present": [
+          "ceno",
+          "cenas",
+          "cena",
+          "cenamos",
+          "cenáis",
+          "cenan"
+        ],
+        "preterite": [
+          "cené",
+          "cenaste",
+          "cenó",
+          "cenamos",
+          "cenasteis",
+          "cenaron"
+        ],
+        "imperfect": [
+          "cenaba",
+          "cenabas",
+          "cenaba",
+          "cenábamos",
+          "cenabais",
+          "cenaban"
+        ]
+      }
+    },
+    {
+      "spanish": "cocinar",
+      "english": "to cook",
+      "chapter": 7,
+      "conjugations": {
+        "present": [
+          "cocino",
+          "cocinas",
+          "cocina",
+          "cocinamos",
+          "cocináis",
+          "cocinan"
+        ],
+        "preterite": [
+          "cociné",
+          "cocinaste",
+          "cocinó",
+          "cocinamos",
+          "cocinasteis",
+          "cocinaron"
+        ],
+        "imperfect": [
+          "cocinaba",
+          "cocinabas",
+          "cocinaba",
+          "cocinábamos",
+          "cocinabais",
+          "cocinaban"
+        ]
+      }
+    },
+    {
+      "spanish": "desayunar",
+      "english": "to eat breakfast",
+      "chapter": 7,
+      "conjugations": {
+        "present": [
+          "desayuno",
+          "desayunas",
+          "desayuna",
+          "desayunamos",
+          "desayunáis",
+          "desayunan"
+        ],
+        "preterite": [
+          "desayuné",
+          "desayunaste",
+          "desayunó",
+          "desayunamos",
+          "desayunasteis",
+          "desayunaron"
+        ],
+        "imperfect": [
+          "desayunaba",
+          "desayunabas",
+          "desayunaba",
+          "desayunábamos",
+          "desayunabais",
+          "desayunaban"
+        ]
+      }
+    },
+    {
+      "spanish": "merendar",
+      "english": "to have a snack",
+      "chapter": 7,
+      "conjugations": {
+        "present": [
+          "meriendo",
+          "meriendas",
+          "merienda",
+          "merendamos",
+          "merendáis",
+          "meriendan"
+        ],
+        "preterite": [
+          "merendé",
+          "merendaste",
+          "merendó",
+          "merendamos",
+          "merendasteis",
+          "merendaron"
+        ],
+        "imperfect": [
+          "merendaba",
+          "merendabas",
+          "merendaba",
+          "merendábamos",
+          "merendabais",
+          "merendaban"
+        ]
+      }
+    },
+    {
+      "spanish": "preparar",
+      "english": "to prepare",
+      "chapter": 7,
+      "conjugations": {
+        "present": [
+          "preparo",
+          "preparas",
+          "prepara",
+          "preparamos",
+          "preparáis",
+          "preparan"
+        ],
+        "preterite": [
+          "preparé",
+          "preparaste",
+          "preparó",
+          "preparamos",
+          "preparasteis",
+          "prepararon"
+        ],
+        "imperfect": [
+          "preparaba",
+          "preparabas",
+          "preparaba",
+          "preparábamos",
+          "preparabais",
+          "preparaban"
+        ]
+      }
+    },
+    {
+      "spanish": "contar",
+      "english": "to count / tell",
+      "chapter": 8,
+      "conjugations": {
+        "present": [
+          "cuento",
+          "cuentas",
+          "cuenta",
+          "contamos",
+          "contáis",
+          "cuentan"
+        ],
+        "preterite": [
+          "conté",
+          "contaste",
+          "contó",
+          "contamos",
+          "contasteis",
+          "contaron"
+        ],
+        "imperfect": [
+          "contaba",
+          "contabas",
+          "contaba",
+          "contábamos",
+          "contabais",
+          "contaban"
+        ]
+      }
+    },
+    {
+      "spanish": "dar",
+      "english": "to give",
+      "chapter": 8,
+      "conjugations": {
+        "present": [
+          "doy",
+          "das",
+          "da",
+          "damos",
+          "dais",
+          "dan"
+        ],
+        "preterite": [
+          "di",
+          "diste",
+          "dio",
+          "dimos",
+          "disteis",
+          "dieron"
+        ],
+        "imperfect": [
+          "daba",
+          "dabas",
+          "daba",
+          "dábamos",
+          "dabais",
+          "daban"
+        ]
+      }
+    },
+    {
+      "spanish": "decir",
+      "english": "to say / tell",
+      "chapter": 8,
+      "conjugations": {
+        "present": [
+          "digo",
+          "dices",
+          "dice",
+          "decimos",
+          "decís",
+          "dicen"
+        ],
+        "preterite": [
+          "dije",
+          "dijiste",
+          "dijo",
+          "dijimos",
+          "dijisteis",
+          "dijeron"
+        ],
+        "imperfect": [
+          "decía",
+          "decías",
+          "decía",
+          "decíamos",
+          "decíais",
+          "decían"
+        ]
+      }
+    },
+    {
+      "spanish": "encantar",
+      "english": "to delight / love",
+      "chapter": 8,
+      "conjugations": {
+        "present": [
+          "encanto",
+          "encantas",
+          "encanta",
+          "encantamos",
+          "encantáis",
+          "encantan"
+        ],
+        "preterite": [
+          "encanté",
+          "encantaste",
+          "encantó",
+          "encantamos",
+          "encantasteis",
+          "encantaron"
+        ],
+        "imperfect": [
+          "encantaba",
+          "encantabas",
+          "encantaba",
+          "encantábamos",
+          "encantabais",
+          "encantaban"
+        ]
+      },
+      "usageNote": "Often used with indirect-object pronouns and third-person forms; six-person verb forms alone do not model typical usage."
+    },
+    {
+      "spanish": "entregar",
+      "english": "to deliver",
+      "chapter": 8,
+      "conjugations": {
+        "present": [
+          "entrego",
+          "entregas",
+          "entrega",
+          "entregamos",
+          "entregáis",
+          "entregan"
+        ],
+        "preterite": [
+          "entregué",
+          "entregaste",
+          "entregó",
+          "entregamos",
+          "entregasteis",
+          "entregaron"
+        ],
+        "imperfect": [
+          "entregaba",
+          "entregabas",
+          "entregaba",
+          "entregábamos",
+          "entregabais",
+          "entregaban"
+        ]
+      }
+    },
+    {
+      "spanish": "explicar",
+      "english": "to explain",
+      "chapter": 8,
+      "conjugations": {
+        "present": [
+          "explico",
+          "explicas",
+          "explica",
+          "explicamos",
+          "explicáis",
+          "explican"
+        ],
+        "preterite": [
+          "expliqué",
+          "explicaste",
+          "explicó",
+          "explicamos",
+          "explicasteis",
+          "explicaron"
+        ],
+        "imperfect": [
+          "explicaba",
+          "explicabas",
+          "explicaba",
+          "explicábamos",
+          "explicabais",
+          "explicaban"
+        ]
+      }
+    },
+    {
+      "spanish": "gustar",
+      "english": "to please / like",
+      "chapter": 8,
+      "conjugations": {
+        "present": [
+          "gusto",
+          "gustas",
+          "gusta",
+          "gustamos",
+          "gustáis",
+          "gustan"
+        ],
+        "preterite": [
+          "gusté",
+          "gustaste",
+          "gustó",
+          "gustamos",
+          "gustasteis",
+          "gustaron"
+        ],
+        "imperfect": [
+          "gustaba",
+          "gustabas",
+          "gustaba",
+          "gustábamos",
+          "gustabais",
+          "gustaban"
+        ]
+      },
+      "usageNote": "Often used with indirect-object pronouns and third-person forms; six-person verb forms alone do not model typical usage."
+    },
+    {
+      "spanish": "mostrar",
+      "english": "to show",
+      "chapter": 8,
+      "conjugations": {
+        "present": [
+          "muestro",
+          "muestras",
+          "muestra",
+          "mostramos",
+          "mostráis",
+          "muestran"
+        ],
+        "preterite": [
+          "mostré",
+          "mostraste",
+          "mostró",
+          "mostramos",
+          "mostrasteis",
+          "mostraron"
+        ],
+        "imperfect": [
+          "mostraba",
+          "mostrabas",
+          "mostraba",
+          "mostrábamos",
+          "mostrabais",
+          "mostraban"
+        ]
+      }
+    },
+    {
+      "spanish": "odiar",
+      "english": "to hate",
+      "chapter": 8,
+      "conjugations": {
+        "present": [
+          "odio",
+          "odias",
+          "odia",
+          "odiamos",
+          "odiáis",
+          "odian"
+        ],
+        "preterite": [
+          "odié",
+          "odiaste",
+          "odió",
+          "odiamos",
+          "odiasteis",
+          "odiaron"
+        ],
+        "imperfect": [
+          "odiaba",
+          "odiabas",
+          "odiaba",
+          "odiábamos",
+          "odiabais",
+          "odiaban"
+        ]
+      }
+    },
+    {
+      "spanish": "ofrecer",
+      "english": "to offer",
+      "chapter": 8,
+      "conjugations": {
+        "present": [
+          "ofrezco",
+          "ofreces",
+          "ofrece",
+          "ofrecemos",
+          "ofrecéis",
+          "ofrecen"
+        ],
+        "preterite": [
+          "ofrecí",
+          "ofreciste",
+          "ofreció",
+          "ofrecimos",
+          "ofrecisteis",
+          "ofrecieron"
+        ],
+        "imperfect": [
+          "ofrecía",
+          "ofrecías",
+          "ofrecía",
+          "ofrecíamos",
+          "ofrecíais",
+          "ofrecían"
+        ]
+      }
+    },
+    {
+      "spanish": "preguntar",
+      "english": "to ask (a question)",
+      "chapter": 8,
+      "conjugations": {
+        "present": [
+          "pregunto",
+          "preguntas",
+          "pregunta",
+          "preguntamos",
+          "preguntáis",
+          "preguntan"
+        ],
+        "preterite": [
+          "pregunté",
+          "preguntaste",
+          "preguntó",
+          "preguntamos",
+          "preguntasteis",
+          "preguntaron"
+        ],
+        "imperfect": [
+          "preguntaba",
+          "preguntabas",
+          "preguntaba",
+          "preguntábamos",
+          "preguntabais",
+          "preguntaban"
+        ]
+      }
+    },
+    {
+      "spanish": "prestar",
+      "english": "to lend",
+      "chapter": 8,
+      "conjugations": {
+        "present": [
+          "presto",
+          "prestas",
+          "presta",
+          "prestamos",
+          "prestáis",
+          "prestan"
+        ],
+        "preterite": [
+          "presté",
+          "prestaste",
+          "prestó",
+          "prestamos",
+          "prestasteis",
+          "prestaron"
+        ],
+        "imperfect": [
+          "prestaba",
+          "prestabas",
+          "prestaba",
+          "prestábamos",
+          "prestabais",
+          "prestaban"
+        ]
+      }
+    },
+    {
+      "spanish": "prometer",
+      "english": "to promise",
+      "chapter": 8,
+      "conjugations": {
+        "present": [
+          "prometo",
+          "prometes",
+          "promete",
+          "prometemos",
+          "prometéis",
+          "prometen"
+        ],
+        "preterite": [
+          "prometí",
+          "prometiste",
+          "prometió",
+          "prometimos",
+          "prometisteis",
+          "prometieron"
+        ],
+        "imperfect": [
+          "prometía",
+          "prometías",
+          "prometía",
+          "prometíamos",
+          "prometíais",
+          "prometían"
+        ]
+      }
+    },
+    {
+      "spanish": "recomendar",
+      "english": "to recommend",
+      "chapter": 8,
+      "conjugations": {
+        "present": [
+          "recomiendo",
+          "recomiendas",
+          "recomienda",
+          "recomendamos",
+          "recomendáis",
+          "recomiendan"
+        ],
+        "preterite": [
+          "recomendé",
+          "recomendaste",
+          "recomendó",
+          "recomendamos",
+          "recomendasteis",
+          "recomendaron"
+        ],
+        "imperfect": [
+          "recomendaba",
+          "recomendabas",
+          "recomendaba",
+          "recomendábamos",
+          "recomendabais",
+          "recomendaban"
+        ]
+      }
+    },
+    {
+      "spanish": "regalar",
+      "english": "to give as a gift",
+      "chapter": 8,
+      "conjugations": {
+        "present": [
+          "regalo",
+          "regalas",
+          "regala",
+          "regalamos",
+          "regaláis",
+          "regalan"
+        ],
+        "preterite": [
+          "regalé",
+          "regalaste",
+          "regaló",
+          "regalamos",
+          "regalasteis",
+          "regalaron"
+        ],
+        "imperfect": [
+          "regalaba",
+          "regalabas",
+          "regalaba",
+          "regalábamos",
+          "regalabais",
+          "regalaban"
+        ]
+      }
+    },
+    {
+      "spanish": "quejarse",
+      "english": "to complain",
+      "chapter": 8,
+      "conjugations": {
+        "present": [
+          "me quejo",
+          "te quejas",
+          "se queja",
+          "nos quejamos",
+          "os quejáis",
+          "se quejan"
+        ],
+        "preterite": [
+          "me quejé",
+          "te quejaste",
+          "se quejó",
+          "nos quejamos",
+          "os quejasteis",
+          "se quejaron"
+        ],
+        "imperfect": [
+          "me quejaba",
+          "te quejabas",
+          "se quejaba",
+          "nos quejábamos",
+          "os quejabais",
+          "se quejaban"
+        ]
+      },
+      "type": "reflexive"
+    },
+    {
+      "spanish": "adivinar",
+      "english": "to guess",
+      "chapter": 9,
+      "conjugations": {
+        "present": [
+          "adivino",
+          "adivinas",
+          "adivina",
+          "adivinamos",
+          "adivináis",
+          "adivinan"
+        ],
+        "preterite": [
+          "adiviné",
+          "adivinaste",
+          "adivinó",
+          "adivinamos",
+          "adivinasteis",
+          "adivinaron"
+        ],
+        "imperfect": [
+          "adivinaba",
+          "adivinabas",
+          "adivinaba",
+          "adivinábamos",
+          "adivinabais",
+          "adivinaban"
+        ]
+      }
+    },
+    {
+      "spanish": "conseguir",
+      "english": "to obtain / manage to",
+      "chapter": 9,
+      "conjugations": {
+        "present": [
+          "consigo",
+          "consigues",
+          "consigue",
+          "conseguimos",
+          "conseguís",
+          "consiguen"
+        ],
+        "preterite": [
+          "conseguí",
+          "conseguiste",
+          "consiguió",
+          "conseguimos",
+          "conseguisteis",
+          "consiguieron"
+        ],
+        "imperfect": [
+          "conseguía",
+          "conseguías",
+          "conseguía",
+          "conseguíamos",
+          "conseguíais",
+          "conseguían"
+        ]
+      }
+    },
+    {
+      "spanish": "despedir",
+      "english": "to dismiss / say goodbye",
+      "chapter": 9,
+      "conjugations": {
+        "present": [
+          "despido",
+          "despides",
+          "despide",
+          "despedimos",
+          "despedís",
+          "despiden"
+        ],
+        "preterite": [
+          "despedí",
+          "despediste",
+          "despidió",
+          "despedimos",
+          "despedisteis",
+          "despidieron"
+        ],
+        "imperfect": [
+          "despedía",
+          "despedías",
+          "despedía",
+          "despedíamos",
+          "despedíais",
+          "despedían"
+        ]
+      }
+    },
+    {
+      "spanish": "encontrar",
+      "english": "to find",
+      "chapter": 9,
+      "conjugations": {
+        "present": [
+          "encuentro",
+          "encuentras",
+          "encuentra",
+          "encontramos",
+          "encontráis",
+          "encuentran"
+        ],
+        "preterite": [
+          "encontré",
+          "encontraste",
+          "encontró",
+          "encontramos",
+          "encontrasteis",
+          "encontraron"
+        ],
+        "imperfect": [
+          "encontraba",
+          "encontrabas",
+          "encontraba",
+          "encontrábamos",
+          "encontrabais",
+          "encontraban"
+        ]
+      }
+    },
+    {
+      "spanish": "morir",
+      "english": "to die",
+      "chapter": 9,
+      "conjugations": {
+        "present": [
+          "muero",
+          "mueres",
+          "muere",
+          "morimos",
+          "morís",
+          "mueren"
+        ],
+        "preterite": [
+          "morí",
+          "moriste",
+          "murió",
+          "morimos",
+          "moristeis",
+          "murieron"
+        ],
+        "imperfect": [
+          "moría",
+          "morías",
+          "moría",
+          "moríamos",
+          "moríais",
+          "morían"
+        ]
+      }
+    },
+    {
+      "spanish": "sugerir",
+      "english": "to suggest",
+      "chapter": 9,
+      "conjugations": {
+        "present": [
+          "sugiero",
+          "sugieres",
+          "sugiere",
+          "sugerimos",
+          "sugerís",
+          "sugieren"
+        ],
+        "preterite": [
+          "sugerí",
+          "sugeriste",
+          "sugirió",
+          "sugerimos",
+          "sugeristeis",
+          "sugirieron"
+        ],
+        "imperfect": [
+          "sugería",
+          "sugerías",
+          "sugería",
+          "sugeríamos",
+          "sugeríais",
+          "sugerían"
+        ]
+      }
+    },
+    {
+      "spanish": "pelear",
+      "english": "to fight",
+      "chapter": 10,
+      "conjugations": {
+        "present": [
+          "peleo",
+          "peleas",
+          "pelea",
+          "peleamos",
+          "peleáis",
+          "pelean"
+        ],
+        "preterite": [
+          "peleé",
+          "peleaste",
+          "peleó",
+          "peleamos",
+          "peleasteis",
+          "pelearon"
+        ],
+        "imperfect": [
+          "peleaba",
+          "peleabas",
+          "peleaba",
+          "peleábamos",
+          "peleabais",
+          "peleaban"
+        ]
+      }
+    },
+    {
+      "spanish": "sonar",
+      "english": "to sound",
+      "chapter": 10,
+      "conjugations": {
+        "present": [
+          "sueno",
+          "suenas",
+          "suena",
+          "sonamos",
+          "sonáis",
+          "suenan"
+        ],
+        "preterite": [
+          "soné",
+          "sonaste",
+          "sonó",
+          "sonamos",
+          "sonasteis",
+          "sonaron"
+        ],
+        "imperfect": [
+          "sonaba",
+          "sonabas",
+          "sonaba",
+          "sonábamos",
+          "sonabais",
+          "sonaban"
+        ]
+      },
+      "usageNote": "Listed as \"Sonar\" (to sound); if the textbook intends \"soñar\" (to dream), replace this entry."
+    },
+    {
+      "spanish": "tocarle a",
+      "english": "to be someone's turn / be up to someone",
+      "chapter": 10,
+      "conjugations": {
+        "present": [
+          "me toca",
+          "te toca",
+          "le toca",
+          "nos toca",
+          "os toca",
+          "les toca"
+        ],
+        "preterite": [
+          "me tocó",
+          "te tocó",
+          "le tocó",
+          "nos tocó",
+          "os tocó",
+          "les tocó"
+        ],
+        "imperfect": [
+          "me tocaba",
+          "te tocaba",
+          "le tocaba",
+          "nos tocaba",
+          "os tocaba",
+          "les tocaba"
+        ]
+      },
+      "type": "phrase",
+      "usageNote": "Special indirect-object construction (me toca, te toca, le toca, nos toca, os toca, les toca). These do not correspond to the six subject pronouns in the app; exclude from standard practice.",
+      "excludeFromPractice": true
+    },
+    {
+      "spanish": "entrenar",
+      "english": "to train",
+      "chapter": 10,
+      "conjugations": {
+        "present": [
+          "entreno",
+          "entrenas",
+          "entrena",
+          "entrenamos",
+          "entrenáis",
+          "entrenan"
+        ],
+        "preterite": [
+          "entrené",
+          "entrenaste",
+          "entrenó",
+          "entrenamos",
+          "entrenasteis",
+          "entrenaron"
+        ],
+        "imperfect": [
+          "entrenaba",
+          "entrenabas",
+          "entrenaba",
+          "entrenábamos",
+          "entrenabais",
+          "entrenaban"
+        ]
+      }
+    },
+    {
+      "spanish": "entrenarse",
+      "english": "to train oneself",
+      "chapter": 10,
+      "conjugations": {
+        "present": [
+          "me entreno",
+          "te entrenas",
+          "se entrena",
+          "nos entrenamos",
+          "os entrenáis",
+          "se entrenan"
+        ],
+        "preterite": [
+          "me entrené",
+          "te entrenaste",
+          "se entrenó",
+          "nos entrenamos",
+          "os entrenasteis",
+          "se entrenaron"
+        ],
+        "imperfect": [
+          "me entrenaba",
+          "te entrenabas",
+          "se entrenaba",
+          "nos entrenábamos",
+          "os entrenabais",
+          "se entrenaban"
+        ]
+      },
+      "type": "reflexive"
+    },
+    {
+      "spanish": "ganar",
+      "english": "to win / earn",
+      "chapter": 10,
+      "conjugations": {
+        "present": [
+          "gano",
+          "ganas",
+          "gana",
+          "ganamos",
+          "ganáis",
+          "ganan"
+        ],
+        "preterite": [
+          "gané",
+          "ganaste",
+          "ganó",
+          "ganamos",
+          "ganasteis",
+          "ganaron"
+        ],
+        "imperfect": [
+          "ganaba",
+          "ganabas",
+          "ganaba",
+          "ganábamos",
+          "ganabais",
+          "ganaban"
+        ]
+      }
+    },
+    {
+      "spanish": "aburrirse",
+      "english": "to get bored",
+      "chapter": 10,
+      "conjugations": {
+        "present": [
+          "me aburro",
+          "te aburres",
+          "se aburre",
+          "nos aburrimos",
+          "os aburrís",
+          "se aburren"
+        ],
+        "preterite": [
+          "me aburrí",
+          "te aburriste",
+          "se aburrió",
+          "nos aburrimos",
+          "os aburristeis",
+          "se aburrieron"
+        ],
+        "imperfect": [
+          "me aburría",
+          "te aburrías",
+          "se aburría",
+          "nos aburríamos",
+          "os aburríais",
+          "se aburrían"
+        ]
+      },
+      "type": "reflexive"
+    },
+    {
+      "spanish": "andar en bicicleta",
+      "english": "to ride a bicycle",
+      "chapter": 10,
+      "conjugations": {
+        "present": [
+          "ando en bicicleta",
+          "andas en bicicleta",
+          "anda en bicicleta",
+          "andamos en bicicleta",
+          "andáis en bicicleta",
+          "andan en bicicleta"
+        ],
+        "preterite": [
+          "anduve en bicicleta",
+          "anduviste en bicicleta",
+          "anduvo en bicicleta",
+          "anduvimos en bicicleta",
+          "anduvisteis en bicicleta",
+          "anduvieron en bicicleta"
+        ],
+        "imperfect": [
+          "andaba en bicicleta",
+          "andabas en bicicleta",
+          "andaba en bicicleta",
+          "andábamos en bicicleta",
+          "andabais en bicicleta",
+          "andaban en bicicleta"
+        ]
+      },
+      "type": "phrase"
+    },
+    {
+      "spanish": "caminar",
+      "english": "to walk",
+      "chapter": 10,
+      "conjugations": {
+        "present": [
+          "camino",
+          "caminas",
+          "camina",
+          "caminamos",
+          "camináis",
+          "caminan"
+        ],
+        "preterite": [
+          "caminé",
+          "caminaste",
+          "caminó",
+          "caminamos",
+          "caminasteis",
+          "caminaron"
+        ],
+        "imperfect": [
+          "caminaba",
+          "caminabas",
+          "caminaba",
+          "caminábamos",
+          "caminabais",
+          "caminaban"
+        ]
+      }
+    },
+    {
+      "spanish": "correr",
+      "english": "to run",
+      "chapter": 10,
+      "conjugations": {
+        "present": [
+          "corro",
+          "corres",
+          "corre",
+          "corremos",
+          "corréis",
+          "corren"
+        ],
+        "preterite": [
+          "corrí",
+          "corriste",
+          "corrió",
+          "corrimos",
+          "corristeis",
+          "corrieron"
+        ],
+        "imperfect": [
+          "corría",
+          "corrías",
+          "corría",
+          "corríamos",
+          "corríais",
+          "corrían"
+        ]
+      }
+    },
+    {
+      "spanish": "dar una caminata",
+      "english": "to take a walk",
+      "chapter": 10,
+      "conjugations": {
+        "present": [
+          "doy una caminata",
+          "das una caminata",
+          "da una caminata",
+          "damos una caminata",
+          "dais una caminata",
+          "dan una caminata"
+        ],
+        "preterite": [
+          "di una caminata",
+          "diste una caminata",
+          "dio una caminata",
+          "dimos una caminata",
+          "disteis una caminata",
+          "dieron una caminata"
+        ],
+        "imperfect": [
+          "daba una caminata",
+          "dabas una caminata",
+          "daba una caminata",
+          "dábamos una caminata",
+          "dabais una caminata",
+          "daban una caminata"
+        ]
+      },
+      "type": "phrase"
+    },
+    {
+      "spanish": "esquiar",
+      "english": "to ski",
+      "chapter": 10,
+      "conjugations": {
+        "present": [
+          "esquío",
+          "esquías",
+          "esquía",
+          "esquiamos",
+          "esquiáis",
+          "esquían"
+        ],
+        "preterite": [
+          "esquié",
+          "esquiaste",
+          "esquió",
+          "esquiamos",
+          "esquiasteis",
+          "esquiaron"
+        ],
+        "imperfect": [
+          "esquiaba",
+          "esquiabas",
+          "esquiaba",
+          "esquiábamos",
+          "esquiabais",
+          "esquiaban"
+        ]
+      }
+    },
+    {
+      "spanish": "hacer (el) yoga",
+      "english": "to do yoga",
+      "chapter": 10,
+      "conjugations": {
+        "present": [
+          "hago (el) yoga",
+          "haces (el) yoga",
+          "hace (el) yoga",
+          "hacemos (el) yoga",
+          "hacéis (el) yoga",
+          "hacen (el) yoga"
+        ],
+        "preterite": [
+          "hice (el) yoga",
+          "hiciste (el) yoga",
+          "hizo (el) yoga",
+          "hicimos (el) yoga",
+          "hicisteis (el) yoga",
+          "hicieron (el) yoga"
+        ],
+        "imperfect": [
+          "hacía (el) yoga",
+          "hacías (el) yoga",
+          "hacía (el) yoga",
+          "hacíamos (el) yoga",
+          "hacíais (el) yoga",
+          "hacían (el) yoga"
+        ]
+      },
+      "type": "phrase"
+    },
+    {
+      "spanish": "montar a caballo",
+      "english": "to ride a horse",
+      "chapter": 10,
+      "conjugations": {
+        "present": [
+          "monto a caballo",
+          "montas a caballo",
+          "monta a caballo",
+          "montamos a caballo",
+          "montáis a caballo",
+          "montan a caballo"
+        ],
+        "preterite": [
+          "monté a caballo",
+          "montaste a caballo",
+          "montó a caballo",
+          "montamos a caballo",
+          "montasteis a caballo",
+          "montaron a caballo"
+        ],
+        "imperfect": [
+          "montaba a caballo",
+          "montabas a caballo",
+          "montaba a caballo",
+          "montábamos a caballo",
+          "montabais a caballo",
+          "montaban a caballo"
+        ]
+      },
+      "type": "phrase"
+    },
+    {
+      "spanish": "patinar",
+      "english": "to skate",
+      "chapter": 10,
+      "conjugations": {
+        "present": [
+          "patino",
+          "patinas",
+          "patina",
+          "patinamos",
+          "patináis",
+          "patinan"
+        ],
+        "preterite": [
+          "patiné",
+          "patinaste",
+          "patinó",
+          "patinamos",
+          "patinasteis",
+          "patinaron"
+        ],
+        "imperfect": [
+          "patinaba",
+          "patinabas",
+          "patinaba",
+          "patinábamos",
+          "patinabais",
+          "patinaban"
+        ]
+      }
+    },
+    {
+      "spanish": "surfear",
+      "english": "to surf",
+      "chapter": 10,
+      "conjugations": {
+        "present": [
+          "surfeo",
+          "surfeas",
+          "surfea",
+          "surfeamos",
+          "surfeáis",
+          "surfean"
+        ],
+        "preterite": [
+          "surfeé",
+          "surfeaste",
+          "surfeó",
+          "surfeamos",
+          "surfeasteis",
+          "surfearon"
+        ],
+        "imperfect": [
+          "surfeaba",
+          "surfeabas",
+          "surfeaba",
+          "surfeábamos",
+          "surfeabais",
+          "surfeaban"
+        ]
+      }
+    },
+    {
+      "spanish": "barrer el piso",
+      "english": "to sweep the floor",
+      "chapter": 10,
+      "conjugations": {
+        "present": [
+          "barro el piso",
+          "barres el piso",
+          "barre el piso",
+          "barremos el piso",
+          "barréis el piso",
+          "barren el piso"
+        ],
+        "preterite": [
+          "barrí el piso",
+          "barriste el piso",
+          "barrió el piso",
+          "barrimos el piso",
+          "barristeis el piso",
+          "barrieron el piso"
+        ],
+        "imperfect": [
+          "barría el piso",
+          "barrías el piso",
+          "barría el piso",
+          "barríamos el piso",
+          "barríais el piso",
+          "barrían el piso"
+        ]
+      },
+      "type": "phrase"
+    },
+    {
+      "spanish": "hacer la cama",
+      "english": "to make the bed",
+      "chapter": 10,
+      "conjugations": {
+        "present": [
+          "hago la cama",
+          "haces la cama",
+          "hace la cama",
+          "hacemos la cama",
+          "hacéis la cama",
+          "hacen la cama"
+        ],
+        "preterite": [
+          "hice la cama",
+          "hiciste la cama",
+          "hizo la cama",
+          "hicimos la cama",
+          "hicisteis la cama",
+          "hicieron la cama"
+        ],
+        "imperfect": [
+          "hacía la cama",
+          "hacías la cama",
+          "hacía la cama",
+          "hacíamos la cama",
+          "hacíais la cama",
+          "hacían la cama"
+        ]
+      },
+      "type": "phrase"
+    },
+    {
+      "spanish": "lavar",
+      "english": "to wash",
+      "chapter": 10,
+      "conjugations": {
+        "present": [
+          "lavo",
+          "lavas",
+          "lava",
+          "lavamos",
+          "laváis",
+          "lavan"
+        ],
+        "preterite": [
+          "lavé",
+          "lavaste",
+          "lavó",
+          "lavamos",
+          "lavasteis",
+          "lavaron"
+        ],
+        "imperfect": [
+          "lavaba",
+          "lavabas",
+          "lavaba",
+          "lavábamos",
+          "lavabais",
+          "lavaban"
+        ]
+      }
+    },
+    {
+      "spanish": "limpiar (la casa)",
+      "english": "to clean (the house)",
+      "chapter": 10,
+      "conjugations": {
+        "present": [
+          "limpio (la casa)",
+          "limpias (la casa)",
+          "limpia (la casa)",
+          "limpiamos (la casa)",
+          "limpiáis (la casa)",
+          "limpian (la casa)"
+        ],
+        "preterite": [
+          "limpié (la casa)",
+          "limpiaste (la casa)",
+          "limpió (la casa)",
+          "limpiamos (la casa)",
+          "limpiasteis (la casa)",
+          "limpiaron (la casa)"
+        ],
+        "imperfect": [
+          "limpiaba (la casa)",
+          "limpiabas (la casa)",
+          "limpiaba (la casa)",
+          "limpiábamos (la casa)",
+          "limpiabais (la casa)",
+          "limpiaban (la casa)"
+        ]
+      },
+      "type": "phrase"
+    },
+    {
+      "spanish": "pasar la aspiradora",
+      "english": "to vacuum",
+      "chapter": 10,
+      "conjugations": {
+        "present": [
+          "paso la aspiradora",
+          "pasas la aspiradora",
+          "pasa la aspiradora",
+          "pasamos la aspiradora",
+          "pasáis la aspiradora",
+          "pasan la aspiradora"
+        ],
+        "preterite": [
+          "pasé la aspiradora",
+          "pasaste la aspiradora",
+          "pasó la aspiradora",
+          "pasamos la aspiradora",
+          "pasasteis la aspiradora",
+          "pasaron la aspiradora"
+        ],
+        "imperfect": [
+          "pasaba la aspiradora",
+          "pasabas la aspiradora",
+          "pasaba la aspiradora",
+          "pasábamos la aspiradora",
+          "pasabais la aspiradora",
+          "pasaban la aspiradora"
+        ]
+      },
+      "type": "phrase"
+    },
+    {
+      "spanish": "planchar",
+      "english": "to iron",
+      "chapter": 10,
+      "conjugations": {
+        "present": [
+          "plancho",
+          "planchas",
+          "plancha",
+          "planchamos",
+          "plancháis",
+          "planchan"
+        ],
+        "preterite": [
+          "planché",
+          "planchaste",
+          "planchó",
+          "planchamos",
+          "planchasteis",
+          "plancharon"
+        ],
+        "imperfect": [
+          "planchaba",
+          "planchabas",
+          "planchaba",
+          "planchábamos",
+          "planchabais",
+          "planchaban"
+        ]
+      }
+    },
+    {
+      "spanish": "poner la mesa",
+      "english": "to set the table",
+      "chapter": 10,
+      "conjugations": {
+        "present": [
+          "pongo la mesa",
+          "pones la mesa",
+          "pone la mesa",
+          "ponemos la mesa",
+          "ponéis la mesa",
+          "ponen la mesa"
+        ],
+        "preterite": [
+          "puse la mesa",
+          "pusiste la mesa",
+          "puso la mesa",
+          "pusimos la mesa",
+          "pusisteis la mesa",
+          "pusieron la mesa"
+        ],
+        "imperfect": [
+          "ponía la mesa",
+          "ponías la mesa",
+          "ponía la mesa",
+          "poníamos la mesa",
+          "poníais la mesa",
+          "ponían la mesa"
+        ]
+      },
+      "type": "phrase"
+    },
+    {
+      "spanish": "quitar la mesa",
+      "english": "to clear the table",
+      "chapter": 10,
+      "conjugations": {
+        "present": [
+          "quito la mesa",
+          "quitas la mesa",
+          "quita la mesa",
+          "quitamos la mesa",
+          "quitáis la mesa",
+          "quitan la mesa"
+        ],
+        "preterite": [
+          "quité la mesa",
+          "quitaste la mesa",
+          "quitó la mesa",
+          "quitamos la mesa",
+          "quitasteis la mesa",
+          "quitaron la mesa"
+        ],
+        "imperfect": [
+          "quitaba la mesa",
+          "quitabas la mesa",
+          "quitaba la mesa",
+          "quitábamos la mesa",
+          "quitabais la mesa",
+          "quitaban la mesa"
+        ]
+      },
+      "type": "phrase"
+    },
+    {
+      "spanish": "sacar la basura",
+      "english": "to take out the trash",
+      "chapter": 10,
+      "conjugations": {
+        "present": [
+          "saco la basura",
+          "sacas la basura",
+          "saca la basura",
+          "sacamos la basura",
+          "sacáis la basura",
+          "sacan la basura"
+        ],
+        "preterite": [
+          "saqué la basura",
+          "sacaste la basura",
+          "sacó la basura",
+          "sacamos la basura",
+          "sacasteis la basura",
+          "sacaron la basura"
+        ],
+        "imperfect": [
+          "sacaba la basura",
+          "sacabas la basura",
+          "sacaba la basura",
+          "sacábamos la basura",
+          "sacabais la basura",
+          "sacaban la basura"
+        ]
+      },
+      "type": "phrase"
+    },
+    {
+      "spanish": "abrazarse",
+      "english": "to hug each other",
+      "chapter": 11,
+      "conjugations": {
+        "present": [
+          "me abrazo",
+          "te abrazas",
+          "se abraza",
+          "nos abrazamos",
+          "os abrazáis",
+          "se abrazan"
+        ],
+        "preterite": [
+          "me abracé",
+          "te abrazaste",
+          "se abrazó",
+          "nos abrazamos",
+          "os abrazasteis",
+          "se abrazaron"
+        ],
+        "imperfect": [
+          "me abrazaba",
+          "te abrazabas",
+          "se abrazaba",
+          "nos abrazábamos",
+          "os abrazabais",
+          "se abrazaban"
+        ]
+      },
+      "type": "reflexive",
+      "usageNote": "Can express reciprocal actions; meaning depends on pronoun and context."
+    },
+    {
+      "spanish": "besarse",
+      "english": "to kiss each other",
+      "chapter": 11,
+      "conjugations": {
+        "present": [
+          "me beso",
+          "te besas",
+          "se besa",
+          "nos besamos",
+          "os besáis",
+          "se besan"
+        ],
+        "preterite": [
+          "me besé",
+          "te besaste",
+          "se besó",
+          "nos besamos",
+          "os besasteis",
+          "se besaron"
+        ],
+        "imperfect": [
+          "me besaba",
+          "te besabas",
+          "se besaba",
+          "nos besábamos",
+          "os besabais",
+          "se besaban"
+        ]
+      },
+      "type": "reflexive",
+      "usageNote": "Can express reciprocal actions; meaning depends on pronoun and context."
+    },
+    {
+      "spanish": "darse la mano",
+      "english": "to shake hands",
+      "chapter": 11,
+      "conjugations": {
+        "present": [
+          "me doy la mano",
+          "te das la mano",
+          "se da la mano",
+          "nos damos la mano",
+          "os dais la mano",
+          "se dan la mano"
+        ],
+        "preterite": [
+          "me di la mano",
+          "te diste la mano",
+          "se dio la mano",
+          "nos dimos la mano",
+          "os disteis la mano",
+          "se dieron la mano"
+        ],
+        "imperfect": [
+          "me daba la mano",
+          "te dabas la mano",
+          "se daba la mano",
+          "nos dábamos la mano",
+          "os dabais la mano",
+          "se daban la mano"
+        ]
+      },
+      "type": "phrase",
+      "usageNote": "Can express reciprocal actions; meaning depends on pronoun and context."
+    },
+    {
+      "spanish": "encontrarse",
+      "english": "to meet / find oneself",
+      "chapter": 11,
+      "conjugations": {
+        "present": [
+          "me encuentro",
+          "te encuentras",
+          "se encuentra",
+          "nos encontramos",
+          "os encontráis",
+          "se encuentran"
+        ],
+        "preterite": [
+          "me encontré",
+          "te encontraste",
+          "se encontró",
+          "nos encontramos",
+          "os encontrasteis",
+          "se encontraron"
+        ],
+        "imperfect": [
+          "me encontraba",
+          "te encontrabas",
+          "se encontraba",
+          "nos encontrábamos",
+          "os encontrabais",
+          "se encontraban"
+        ]
+      },
+      "type": "reflexive",
+      "usageNote": "Can express reciprocal actions; meaning depends on pronoun and context."
+    },
+    {
+      "spanish": "quererse",
+      "english": "to love each other",
+      "chapter": 11,
+      "conjugations": {
+        "present": [
+          "me quiero",
+          "te quieres",
+          "se quiere",
+          "nos queremos",
+          "os queréis",
+          "se quieren"
+        ],
+        "preterite": [
+          "me quise",
+          "te quisiste",
+          "se quiso",
+          "nos quisimos",
+          "os quisisteis",
+          "se quisieron"
+        ],
+        "imperfect": [
+          "me quería",
+          "te querías",
+          "se quería",
+          "nos queríamos",
+          "os queríais",
+          "se querían"
+        ]
+      },
+      "type": "reflexive",
+      "usageNote": "Can express reciprocal actions; meaning depends on pronoun and context."
+    },
+    {
+      "spanish": "saludarse",
+      "english": "to greet each other",
+      "chapter": 11,
+      "conjugations": {
+        "present": [
+          "me saludo",
+          "te saludas",
+          "se saluda",
+          "nos saludamos",
+          "os saludáis",
+          "se saludan"
+        ],
+        "preterite": [
+          "me saludé",
+          "te saludaste",
+          "se saludó",
+          "nos saludamos",
+          "os saludasteis",
+          "se saludaron"
+        ],
+        "imperfect": [
+          "me saludaba",
+          "te saludabas",
+          "se saludaba",
+          "nos saludábamos",
+          "os saludabais",
+          "se saludaban"
+        ]
+      },
+      "type": "reflexive",
+      "usageNote": "Can express reciprocal actions; meaning depends on pronoun and context."
+    },
+    {
+      "spanish": "cuidar de",
+      "english": "to take care of",
+      "chapter": 11,
+      "conjugations": {
+        "present": [
+          "cuido de",
+          "cuidas de",
+          "cuida de",
+          "cuidamos de",
+          "cuidáis de",
+          "cuidan de"
+        ],
+        "preterite": [
+          "cuidé de",
+          "cuidaste de",
+          "cuidó de",
+          "cuidamos de",
+          "cuidasteis de",
+          "cuidaron de"
+        ],
+        "imperfect": [
+          "cuidaba de",
+          "cuidabas de",
+          "cuidaba de",
+          "cuidábamos de",
+          "cuidabais de",
+          "cuidaban de"
+        ]
+      },
+      "type": "phrase"
+    },
+    {
+      "spanish": "cuidarse",
+      "english": "to take care of oneself",
+      "chapter": 11,
+      "conjugations": {
+        "present": [
+          "me cuido",
+          "te cuidas",
+          "se cuida",
+          "nos cuidamos",
+          "os cuidáis",
+          "se cuidan"
+        ],
+        "preterite": [
+          "me cuidé",
+          "te cuidaste",
+          "se cuidó",
+          "nos cuidamos",
+          "os cuidasteis",
+          "se cuidaron"
+        ],
+        "imperfect": [
+          "me cuidaba",
+          "te cuidabas",
+          "se cuidaba",
+          "nos cuidábamos",
+          "os cuidabais",
+          "se cuidaban"
+        ]
+      },
+      "type": "reflexive"
+    },
+    {
+      "spanish": "dejar de",
+      "english": "to stop (doing)",
+      "chapter": 11,
+      "conjugations": {
+        "present": [
+          "dejo de",
+          "dejas de",
+          "deja de",
+          "dejamos de",
+          "dejáis de",
+          "dejan de"
+        ],
+        "preterite": [
+          "dejé de",
+          "dejaste de",
+          "dejó de",
+          "dejamos de",
+          "dejasteis de",
+          "dejaron de"
+        ],
+        "imperfect": [
+          "dejaba de",
+          "dejabas de",
+          "dejaba de",
+          "dejábamos de",
+          "dejabais de",
+          "dejaban de"
+        ]
+      },
+      "type": "phrase"
+    },
+    {
+      "spanish": "doler",
+      "english": "to hurt / ache",
+      "chapter": 11,
+      "conjugations": {
+        "present": [
+          "duelo",
+          "dueles",
+          "duele",
+          "dolemos",
+          "doléis",
+          "duelen"
+        ],
+        "preterite": [
+          "dolí",
+          "doliste",
+          "dolió",
+          "dolimos",
+          "dolisteis",
+          "dolieron"
+        ],
+        "imperfect": [
+          "dolía",
+          "dolías",
+          "dolía",
+          "dolíamos",
+          "dolíais",
+          "dolían"
+        ]
+      },
+      "usageNote": "Often used with indirect-object pronouns and third-person forms; six-person verb forms alone do not model typical usage."
+    },
+    {
+      "spanish": "enfermarse",
+      "english": "to become ill",
+      "chapter": 11,
+      "conjugations": {
+        "present": [
+          "me enfermo",
+          "te enfermas",
+          "se enferma",
+          "nos enfermamos",
+          "os enfermáis",
+          "se enferman"
+        ],
+        "preterite": [
+          "me enfermé",
+          "te enfermaste",
+          "se enfermó",
+          "nos enfermamos",
+          "os enfermasteis",
+          "se enfermaron"
+        ],
+        "imperfect": [
+          "me enfermaba",
+          "te enfermabas",
+          "se enfermaba",
+          "nos enfermábamos",
+          "os enfermabais",
+          "se enfermaban"
+        ]
+      },
+      "type": "reflexive"
+    },
+    {
+      "spanish": "guardar cama",
+      "english": "to stay in bed",
+      "chapter": 11,
+      "conjugations": {
+        "present": [
+          "guardo cama",
+          "guardas cama",
+          "guarda cama",
+          "guardamos cama",
+          "guardáis cama",
+          "guardan cama"
+        ],
+        "preterite": [
+          "guardé cama",
+          "guardaste cama",
+          "guardó cama",
+          "guardamos cama",
+          "guardasteis cama",
+          "guardaron cama"
+        ],
+        "imperfect": [
+          "guardaba cama",
+          "guardabas cama",
+          "guardaba cama",
+          "guardábamos cama",
+          "guardabais cama",
+          "guardaban cama"
+        ]
+      },
+      "type": "phrase"
+    },
+    {
+      "spanish": "molestar",
+      "english": "to bother",
+      "chapter": 11,
+      "conjugations": {
+        "present": [
+          "molesto",
+          "molestas",
+          "molesta",
+          "molestamos",
+          "molestáis",
+          "molestan"
+        ],
+        "preterite": [
+          "molesté",
+          "molestaste",
+          "molestó",
+          "molestamos",
+          "molestasteis",
+          "molestaron"
+        ],
+        "imperfect": [
+          "molestaba",
+          "molestabas",
+          "molestaba",
+          "molestábamos",
+          "molestabais",
+          "molestaban"
+        ]
+      },
+      "usageNote": "Often used with indirect-object pronouns and third-person forms; six-person verb forms alone do not model typical usage."
+    },
+    {
+      "spanish": "resfriarse",
+      "english": "to catch a cold",
+      "chapter": 11,
+      "conjugations": {
+        "present": [
+          "me resfrío",
+          "te resfrías",
+          "se resfría",
+          "nos resfriamos",
+          "os resfriáis",
+          "se resfrían"
+        ],
+        "preterite": [
+          "me resfrié",
+          "te resfriaste",
+          "se resfrió",
+          "nos resfriamos",
+          "os resfriasteis",
+          "se resfriaron"
+        ],
+        "imperfect": [
+          "me resfriaba",
+          "te resfriabas",
+          "se resfriaba",
+          "nos resfriábamos",
+          "os resfriabais",
+          "se resfriaban"
+        ]
+      },
+      "type": "reflexive"
+    },
+    {
+      "spanish": "respirar",
+      "english": "to breathe",
+      "chapter": 11,
+      "conjugations": {
+        "present": [
+          "respiro",
+          "respiras",
+          "respira",
+          "respiramos",
+          "respiráis",
+          "respiran"
+        ],
+        "preterite": [
+          "respiré",
+          "respiraste",
+          "respiró",
+          "respiramos",
+          "respirasteis",
+          "respiraron"
+        ],
+        "imperfect": [
+          "respiraba",
+          "respirabas",
+          "respiraba",
+          "respirábamos",
+          "respirabais",
+          "respiraban"
+        ]
+      }
+    }
+  ]
+  
