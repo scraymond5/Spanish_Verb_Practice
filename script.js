@@ -10,7 +10,7 @@ let currentVerb = null;
 
 let selectedChapter = 2;
 let selectedLanguage = "spanish";
-let selectedTense = "all";
+let selectedTense = "present";
 let practiceScope = "comprehensive";
 
 let activeInput = null;
@@ -216,17 +216,11 @@ function validateVerbLimit() {
 
 function getAvailableTenses() {
 
-    const tenses = ["present"];
-
-    if (selectedChapter >= 8) {
-        tenses.push("preterite");
-    }
-
-    if (selectedChapter >= 10) {
-        tenses.push("imperfect");
-    }
-
-    return tenses;
+    return [
+        "present",
+        "preterite",
+        "imperfect"
+    ];
 }
 
 function updateTenseOptions() {
@@ -236,13 +230,7 @@ function updateTenseOptions() {
 
     tenseSelect.innerHTML = "";
 
-    const allOption = document.createElement("option");
-
-    allOption.value = "all";
-    allOption.textContent = "All Available Tenses";
-
-    tenseSelect.appendChild(allOption);
-
+    // Add individual tenses first.
     getAvailableTenses().forEach(tense => {
 
         const option = document.createElement("option");
@@ -253,12 +241,13 @@ function updateTenseOptions() {
         tenseSelect.appendChild(option);
     });
 
-    if (
-        selectedTense !== "all" &&
-        !getAvailableTenses().includes(selectedTense)
-    ) {
-        selectedTense = "all";
-    }
+    // Add All Available Tenses last.
+    const allOption = document.createElement("option");
+
+    allOption.value = "all";
+    allOption.textContent = "All Tenses";
+
+    tenseSelect.appendChild(allOption);
 
     tenseSelect.value = selectedTense;
 }

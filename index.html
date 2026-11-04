@@ -4,161 +4,338 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
 
     <title>Spanish Verb Conjugation Practice</title>
 
     <link rel="stylesheet" href="style.css">
+
     <script src="script.js" defer></script>
 </head>
 
 <body>
-    <main class="container">
 
-        <header>
-            <h1>Conjugación de Verbos</h1>
-            <p>Spanish Verb Practice</p>
-        </header>
+    <!-- ==================================================
+         PAGE LAYOUT
+    =================================================== -->
 
-        <!-- PRACTICE SETTINGS -->
-        <section class="settings">
-            <h2>Practice Settings</h2>
+    <div class="page-layout">
 
-            <label for="chapter">Chapter Completed</label>
-            <select id="chapter"></select>
+        <!-- ==================================================
+             LEFT FLAG COLUMN
+        =================================================== -->
 
-            <fieldset>
-                <legend>Practice Scope</legend>
-            
-                <label>
-                    <input type="radio"
-                           name="practiceScope"
-                           value="comprehensive"
-                           checked>
-                    Comprehensive Review
+        <aside class="flag-column" aria-label="Spanish-speaking country flags">
+
+            <img src="images/spain.jpeg" alt="Flag of Spain">
+            <img src="images/mexico.png" alt="Flag of Mexico">
+            <img src="images/chili.png" alt="Flag of Chili">
+            <img src="images/peru.png" alt="Flag of Peru">
+            <img src="images/cuban.png" alt="Flag of Cuba">
+
+        </aside>
+
+
+        <!-- ==================================================
+             MAIN APPLICATION
+        =================================================== -->
+
+        <main class="container">
+
+            <!-- HEADER -->
+
+            <header>
+
+                <h1>Conjugación de Verbos</h1>
+
+                <p>Spanish Verb Practice</p>
+
+            </header>
+
+
+            <!-- ==================================================
+                 PRACTICE SETTINGS
+            =================================================== -->
+
+            <section class="settings">
+
+                <h2>Practice Settings</h2>
+
+                <!-- Chapter selection -->
+
+                <label for="chapter">
+                    Chapter Completed
                 </label>
-            
-                <label>
-                    <input type="radio"
-                           name="practiceScope"
-                           value="chapter">
-                    Selected Chapter Only
+
+                <select id="chapter"></select>
+
+
+                <!-- Practice scope -->
+
+                <fieldset>
+
+                    <legend>Practice Scope</legend>
+
+                    <label>
+                        <input
+                            type="radio"
+                            name="practiceScope"
+                            value="comprehensive"
+                            checked
+                        >
+                        Comprehensive Review
+                    </label>
+
+                    <label>
+                        <input
+                            type="radio"
+                            name="practiceScope"
+                            value="chapter"
+                        >
+                        Selected Chapter Only
+                    </label>
+
+                </fieldset>
+
+
+                <!-- Language selection -->
+
+                <fieldset>
+
+                    <legend>Show First</legend>
+
+                    <label>
+                        <input
+                            type="radio"
+                            name="language"
+                            value="spanish"
+                            checked
+                        >
+                        Spanish Infinitive
+                    </label>
+
+                    <label>
+                        <input
+                            type="radio"
+                            name="language"
+                            value="english"
+                        >
+                        English Translation
+                    </label>
+
+                </fieldset>
+
+
+                <!-- Tense selection -->
+
+                <label for="tense">
+                    Practice Tense
                 </label>
-            </fieldset>
-            
-            <fieldset>
-                <legend>Show First</legend>
 
-                <label>
-                    <input type="radio"
-                           name="language"
-                           value="spanish"
-                           checked>
-                    Spanish Infinitive
+                <select id="tense"></select>
+
+
+                <!-- Number of verbs -->
+
+                <label for="verbLimit">
+                    Number of Verbs
                 </label>
 
-                <label>
-                    <input type="radio"
-                           name="language"
-                           value="english">
-                    English Translation
-                </label>
-            </fieldset>
+                <input
+                    type="number"
+                    id="verbLimit"
+                    min="5"
+                    step="1"
+                    value="5"
+                    required
+                >
 
-            <label for="tense">Practice Tense</label>
-            <select id="tense"></select>
+                <p id="verbRange"></p>
 
-            <label for="verbLimit">Number of Verbs</label>
-            <input type="number"
-                   id="verbLimit"
-                   min="5"
-                   step="1"
-                   value="5"
-                   required>
+                <p id="verbCount"></p>
 
-            <p id="verbRange"></p>
-            <p id="verbCount"></p>
 
-            <button id="startBtn" type="button">
-                Start Practice
-            </button>
-        </section>
+                <!-- Start button -->
 
-        <!-- PRACTICE AREA -->
-        <section id="practice" hidden>
-
-            <div class="progress-area">
-                <p id="progress"></p>
-                <progress id="progressBar"
-                          value="0"
-                          max="1"></progress>
-            </div>
-
-            <div class="verb-heading">
-                <p>CONJUGATE THIS VERB</p>
-                <h2 id="verbPrompt"></h2>
-                <p id="translation" hidden></p>
-                <p id="verbChapter"></p>
-            </div>
-
-            <div class="table-wrapper">
-                <table id="conjugationTable">
-                    <thead id="tableHead"></thead>
-                    <tbody id="tableBody"></tbody>
-                </table>
-            </div>
-
-            <div class="accent-toolbar">
-                <h3>Spanish Characters</h3>
-                <div id="accentButtons"></div>
-                <p>
-                    Select an answer field, then click
-                    a character to insert it.
-                </p>
-            </div>
-
-            <div id="result" aria-live="polite"></div>
-
-            <div class="actions">
-                <button id="checkBtn" type="button">
-                    Check Answers
+                <button
+                    id="startBtn"
+                    type="button"
+                >
+                    Start Practice
                 </button>
 
-                <button id="showBtn" type="button">
-                    Show Answers
+            </section>
+
+
+            <!-- ==================================================
+                 PRACTICE AREA
+            =================================================== -->
+
+            <section id="practice" hidden>
+
+                <!-- Progress -->
+
+                <div class="progress-area">
+
+                    <p id="progress"></p>
+
+                    <progress
+                        id="progressBar"
+                        value="0"
+                        max="1"
+                    ></progress>
+
+                </div>
+
+
+                <!-- Current verb -->
+
+                <div class="verb-heading">
+
+                    <p>CONJUGATE THIS VERB</p>
+
+                    <h2 id="verbPrompt"></h2>
+
+                    <p id="translation" hidden></p>
+
+                    <p id="verbChapter"></p>
+
+                </div>
+
+
+                <!-- Conjugation table -->
+
+                <div class="table-wrapper">
+
+                    <table id="conjugationTable">
+
+                        <thead id="tableHead"></thead>
+
+                        <tbody id="tableBody"></tbody>
+
+                    </table>
+
+                </div>
+
+
+                <!-- Spanish character toolbar -->
+
+                <div class="accent-toolbar">
+
+                    <h3>Spanish Characters</h3>
+
+                    <div id="accentButtons"></div>
+
+                    <p>
+                        Select an answer field, then click
+                        a character to insert it.
+                    </p>
+
+                </div>
+
+
+                <!-- Results -->
+
+                <div
+                    id="result"
+                    aria-live="polite"
+                ></div>
+
+
+                <!-- Practice buttons -->
+
+                <div class="actions">
+
+                    <button
+                        id="checkBtn"
+                        type="button"
+                    >
+                        Check Answers
+                    </button>
+
+                    <button
+                        id="showBtn"
+                        type="button"
+                    >
+                        Show Answers
+                    </button>
+
+                    <button
+                        id="nextBtn"
+                        type="button"
+                    >
+                        Next Verb
+                    </button>
+
+                </div>
+
+
+                <!-- Session statistics -->
+
+                <div class="statistics">
+
+                    <p>
+                        Verbs Attempted:
+                        <span id="attempts">0</span>
+                    </p>
+
+                    <p>
+                        First-Check Accuracy:
+                        <span id="accuracy">0%</span>
+                    </p>
+
+                </div>
+
+            </section>
+
+
+            <!-- ==================================================
+                 SESSION SUMMARY
+            =================================================== -->
+
+            <section id="summary" hidden>
+
+                <h2>Practice Complete!</h2>
+
+                <p id="summaryVerbs"></p>
+
+                <p id="summaryAnswers"></p>
+
+                <p id="summaryCorrect"></p>
+
+                <p id="summaryAccuracy"></p>
+
+                <button
+                    id="againBtn"
+                    type="button"
+                >
+                    Practice Again
                 </button>
 
-                <button id="nextBtn" type="button">
-                    Next Verb
-                </button>
-            </div>
+            </section>
 
-            <div class="statistics">
-                <p>Verbs Attempted:
-                    <span id="attempts">0</span>
-                </p>
+        </main>
 
-                <p>First-Check Accuracy:
-                    <span id="accuracy">0%</span>
-                </p>
-            </div>
-        </section>
 
-        <!-- SESSION SUMMARY -->
-        <section id="summary" hidden>
-            <h2>Practice Complete!</h2>
+        <!-- ==================================================
+             RIGHT FLAG COLUMN
+        =================================================== -->
 
-            <p id="summaryVerbs"></p>
-            <p id="summaryAnswers"></p>
-            <p id="summaryCorrect"></p>
-            <p id="summaryAccuracy"></p>
+        <aside class="flag-column" aria-label="Spanish-speaking country flags">
 
-            <button id="againBtn" type="button">
-                Practice Again
-            </button>
-        </section>
+            <img src="images/colombia.png" alt="Flag of Colombia">
+            <img src="images/costa_rica.png" alt="Flag of Costa Rica">
+            <img src="images/puerto_rico.png" alt="Flag of Puerto Rico">
+            <img src="images/dominican_republic.png" alt="Flag of Dominican Republic">
+            <img src="images/venezuela.png" alt="Flag of Veneauela">
 
-    </main>
+        </aside>
+
+    </div>
+
 </body>
 </html>
