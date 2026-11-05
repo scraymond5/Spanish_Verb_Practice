@@ -326,6 +326,7 @@ td input.incorrect {
     align-items: center;
     gap: 30px;
     padding-top: 50px;
+    color: white;
 }
 
 /* Flag images */
