@@ -361,3 +361,11 @@ td input.incorrect {
         max-width: 90px;
     }
 }
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #eef3f8;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
