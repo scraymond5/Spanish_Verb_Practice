@@ -1,9 +1,9 @@
 
 "use strict";
 
-// ==================================================
+// =====================================================
 // GLOBAL VARIABLES
-// ==================================================
+// =====================================================
 
 let verbs = [];
 let currentVerb = null;
@@ -14,6 +14,7 @@ let selectedTense = "present";
 let practiceScope = "comprehensive";
 
 let activeInput = null;
+
 let sessionVerbs = [];
 let sessionIndex = 0;
 let sessionVerbCount = 0;
@@ -21,12 +22,13 @@ let sessionVerbCount = 0;
 let verbsAttempted = 0;
 let answersGraded = 0;
 let correctAnswers = 0;
+
 let currentVerbScored = false;
 let answersRevealed = false;
 
 const MINIMUM_VERBS = 5;
 const FIRST_CHAPTER = 2;
-const TOTAL_CHAPTERS = 11;
+const TOTAL_CHAPTERS = 12;
 
 const pronouns = [
     "yo",
@@ -48,15 +50,32 @@ const spanishCharacters = [
 ];
 
 
-// ==================================================
-// INITIALIZE APPLICATION
-// ==================================================
+// =====================================================
+// INITIALIZATION
+// =====================================================
 
 document.addEventListener("DOMContentLoaded", initialize);
 
 async function initialize() {
 
-    populateChapters();
+    const chapterSelect = document.getElementById("chapter");
+
+    // Populate the chapter dropdown.
+    for (
+        let chapter = FIRST_CHAPTER;
+        chapter <= TOTAL_CHAPTERS;
+        chapter++
+    ) {
+        const option = document.createElement("option");
+
+        option.value = chapter;
+        option.textContent = `Chapter ${chapter}`;
+
+        chapterSelect.appendChild(option);
+    }
+
+    chapterSelect.value = selectedChapter;
+
     createAccentButtons();
     attachEventListeners();
 
@@ -68,7 +87,13 @@ async function initialize() {
             throw new Error("Unable to load verbs.json");
         }
 
-        verbs = await response.json();
+        const data = await response.json();
+
+        if (!Array.isArray(data)) {
+            throw new Error("verbs.json must contain an array.");
+        }
+
+        verbs = data;
 
         updateTenseOptions();
         updateVerbCount();
@@ -79,196 +104,19 @@ async function initialize() {
         console.error(error);
 
         document.getElementById("verbCount").textContent =
-            "Error loading verbs.json.";
+            "Unable to load the verb data.";
 
         document.getElementById("startBtn").disabled = true;
     }
 }
 
 
-// ==================================================
-// CHAPTER SELECTION
-// ==================================================
-
-function populateChapters() {
-
-    const chapterSelect =
-        document.getElementById("chapter");
-
-    chapterSelect.innerHTML = "";
-
-    for (
-        let chapter = FIRST_CHAPTER;
-        chapter <= TOTAL_CHAPTERS;
-        chapter++
-    ) {
-
-        const option = document.createElement("option");
-
-        option.value = chapter;
-        option.textContent = "Chapter " + chapter;
-
-        chapterSelect.appendChild(option);
-    }
-
-    chapterSelect.value = selectedChapter;
-}
-
-
-// ==================================================
-// ELIGIBLE VERBS
-// ==================================================
-
-function getEligibleVerbs() {
-
-    if (practiceScope === "chapter") {
-
-        // Only verbs introduced in the selected chapter.
-        return verbs.filter(verb =>
-            Number(verb.chapter) === selectedChapter
-        );
-    }
-
-    // All verbs from Chapter 2 through selected chapter.
-    return verbs.filter(verb =>
-        Number(verb.chapter) >= FIRST_CHAPTER &&
-        Number(verb.chapter) <= selectedChapter
-    );
-}
-
-
-// ==================================================
-// VERB COUNT DISPLAY
-// ==================================================
-
-function updateVerbCount() {
-
-    const count = getEligibleVerbs().length;
-
-    const description =
-        practiceScope === "chapter"
-            ? " in Chapter " + selectedChapter
-            : " through Chapter " + selectedChapter;
-
-    document.getElementById("verbCount").textContent =
-        count + " verbs available" + description;
-}
-
-
-// ==================================================
-// NUMBER OF VERBS INPUT
-// ==================================================
-
-function updateVerbLimit() {
-
-    const input = document.getElementById("verbLimit");
-    const range = document.getElementById("verbRange");
-
-    const maximum = getEligibleVerbs().length;
-
-    input.min = MINIMUM_VERBS;
-    input.max = maximum;
-    input.step = 1;
-
-    // Keep the previous value if possible.
-    // Reduce it if it exceeds the available number.
-    if (Number(input.value) > maximum) {
-        input.value = maximum;
-    }
-
-    range.textContent =
-        "Enter between " + MINIMUM_VERBS +
-        " and " + maximum + " verbs.";
-
-    validateVerbLimit();
-}
-
-function validateVerbLimit() {
-
-    const input = document.getElementById("verbLimit");
-    const startButton = document.getElementById("startBtn");
-
-    const maximum = getEligibleVerbs().length;
-    const requested = Number(input.value);
-
-    const valid =
-        input.value.trim() !== "" &&
-        Number.isInteger(requested) &&
-        requested >= MINIMUM_VERBS &&
-        requested <= maximum;
-
-    startButton.disabled = !valid;
-
-    input.setCustomValidity(
-        valid
-            ? ""
-            : "Enter a whole number between " +
-              MINIMUM_VERBS + " and " + maximum + "."
-    );
-
-    return valid;
-}
-
-
-// ==================================================
-// TENSE SELECTION
-// ==================================================
-
-function getAvailableTenses() {
-
-    return [
-        "present",
-        "preterite",
-        "imperfect"
-    ];
-}
-
-function updateTenseOptions() {
-
-    const tenseSelect =
-        document.getElementById("tense");
-
-    tenseSelect.innerHTML = "";
-
-    // Add individual tenses first.
-    getAvailableTenses().forEach(tense => {
-
-        const option = document.createElement("option");
-
-        option.value = tense;
-        option.textContent = tenseNames[tense];
-
-        tenseSelect.appendChild(option);
-    });
-
-    // Add All Available Tenses last.
-    const allOption = document.createElement("option");
-
-    allOption.value = "all";
-    allOption.textContent = "All Tenses";
-
-    tenseSelect.appendChild(allOption);
-
-    tenseSelect.value = selectedTense;
-}
-
-function getSelectedTenses() {
-
-    if (selectedTense === "all") {
-        return getAvailableTenses();
-    }
-
-    return [selectedTense];
-}
-
-
-// ==================================================
+// =====================================================
 // EVENT LISTENERS
-// ==================================================
+// =====================================================
 
 function attachEventListeners() {
 
-    // Chapter selection
     document.getElementById("chapter")
         .addEventListener("change", event => {
 
@@ -277,10 +125,10 @@ function attachEventListeners() {
             updateTenseOptions();
             updateVerbCount();
             updateVerbLimit();
+
             hidePractice();
         });
 
-    // Practice scope
     document.querySelectorAll(
         'input[name="practiceScope"]'
     ).forEach(radio => {
@@ -291,19 +139,11 @@ function attachEventListeners() {
 
             updateVerbCount();
             updateVerbLimit();
+
             hidePractice();
         });
     });
 
-    // Tense selection
-    document.getElementById("tense")
-        .addEventListener("change", event => {
-
-            selectedTense = event.target.value;
-            hidePractice();
-        });
-
-    // Language selection
     document.querySelectorAll(
         'input[name="language"]'
     ).forEach(radio => {
@@ -311,11 +151,19 @@ function attachEventListeners() {
         radio.addEventListener("change", event => {
 
             selectedLanguage = event.target.value;
+
             hidePractice();
         });
     });
 
-    // Number of verbs
+    document.getElementById("tense")
+        .addEventListener("change", event => {
+
+            selectedTense = event.target.value;
+
+            hidePractice();
+        });
+
     document.getElementById("verbLimit")
         .addEventListener("input", () => {
 
@@ -323,7 +171,6 @@ function attachEventListeners() {
             hidePractice();
         });
 
-    // Practice buttons
     document.getElementById("startBtn")
         .addEventListener("click", startPractice);
 
@@ -337,22 +184,175 @@ function attachEventListeners() {
         .addEventListener("click", nextVerb);
 
     document.getElementById("againBtn")
-        .addEventListener("click", startPractice);
+        .addEventListener("click", () => {
+
+            document.getElementById("summary").hidden = true;
+            startPractice();
+        });
 }
+
+
+// =====================================================
+// PRACTICE SETTINGS
+// =====================================================
+
+function getEligibleVerbs() {
+
+    if (practiceScope === "chapter") {
+
+        return verbs.filter(verb =>
+            Number(verb.chapter) === selectedChapter
+        );
+    }
+
+    return verbs.filter(verb =>
+        Number(verb.chapter) >= FIRST_CHAPTER &&
+        Number(verb.chapter) <= selectedChapter
+    );
+}
+
+
+function getAvailableTenses() {
+
+    return [
+        "present",
+        "preterite",
+        "imperfect"
+    ];
+}
+
+
+function updateTenseOptions() {
+
+    const tenseSelect = document.getElementById("tense");
+
+    tenseSelect.innerHTML = "";
+
+    // Individual tenses first.
+    getAvailableTenses().forEach(tense => {
+
+        const option = document.createElement("option");
+
+        option.value = tense;
+        option.textContent = tenseNames[tense];
+
+        tenseSelect.appendChild(option);
+    });
+
+    // All Tenses last.
+    const allOption = document.createElement("option");
+
+    allOption.value = "all";
+    allOption.textContent = "All Tenses";
+
+    tenseSelect.appendChild(allOption);
+
+    tenseSelect.value = selectedTense;
+}
+
+
+function getSelectedTenses() {
+
+    if (selectedTense === "all") {
+        return getAvailableTenses();
+    }
+
+    return [selectedTense];
+}
+
+
+function updateVerbCount() {
+
+    const count = getEligibleVerbs().length;
+
+    const description = practiceScope === "chapter"
+        ? `in Chapter ${selectedChapter}`
+        : `through Chapter ${selectedChapter}`;
+
+    document.getElementById("verbCount").textContent =
+        `${count} verbs available ${description}.`;
+}
+
+
+function updateVerbLimit() {
+
+    const input = document.getElementById("verbLimit");
+
+    const maximum = getEligibleVerbs().length;
+
+    input.min = MINIMUM_VERBS;
+    input.max = maximum;
+    input.step = 1;
+
+    if (Number(input.value) > maximum) {
+        input.value = maximum;
+    }
+
+    document.getElementById("verbRange").textContent =
+        `Enter between ${MINIMUM_VERBS} and ${maximum} verbs.`;
+
+    validateVerbLimit();
+}
+
+
+function validateVerbLimit() {
+
+    const input = document.getElementById("verbLimit");
+    const startButton = document.getElementById("startBtn");
+
+    const value = Number(input.value);
+    const maximum = getEligibleVerbs().length;
+
+    const valid =
+        input.value.trim() !== "" &&
+        Number.isInteger(value) &&
+        value >= MINIMUM_VERBS &&
+        value <= maximum;
+
+    input.setCustomValidity(
+        valid
+            ? ""
+            : `Enter a whole number between ${MINIMUM_VERBS} and ${maximum}.`
+    );
+
+    startButton.disabled = !valid;
+
+    return valid;
+}
+
 
 function hidePractice() {
 
     document.getElementById("practice").hidden = true;
     document.getElementById("summary").hidden = true;
 
-    document.getElementById("startBtn").textContent =
-        "Start Practice";
+    activeInput = null;
 }
 
 
-// ==================================================
+// =====================================================
+// RANDOMIZATION
+// =====================================================
+
+function shuffleArray(array) {
+
+    // Fisher-Yates shuffle.
+    for (let i = array.length - 1; i > 0; i--) {
+
+        const j = Math.floor(
+            Math.random() * (i + 1)
+        );
+
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+
+    return array;
+}
+
+
+// =====================================================
 // START PRACTICE
-// ==================================================
+// =====================================================
 
 function startPractice() {
 
@@ -368,14 +368,12 @@ function startPractice() {
         document.getElementById("verbLimit").value
     );
 
-    // Retrieve verbs based on chapter and scope.
     const eligible = getEligibleVerbs();
 
-    // Randomize the verbs.
-    shuffleArray(eligible);
+    // Randomize without modifying the original verb data.
+    const randomized = shuffleArray([...eligible]);
 
-    // Select exactly the requested number.
-    sessionVerbs = eligible.slice(0, requested);
+    sessionVerbs = randomized.slice(0, requested);
 
     sessionVerbCount = sessionVerbs.length;
     sessionIndex = 0;
@@ -384,59 +382,27 @@ function startPractice() {
     answersGraded = 0;
     correctAnswers = 0;
 
-    currentVerb = null;
     currentVerbScored = false;
     answersRevealed = false;
-
-    updateStatistics();
 
     document.getElementById("summary").hidden = true;
     document.getElementById("practice").hidden = false;
 
-    document.getElementById("startBtn").textContent =
-        "Restart Practice";
-
+    updateStatistics();
     displayNextVerb();
 }
 
 
-// ==================================================
-// RANDOMIZE VERBS - FISHER-YATES
-// ==================================================
+// =====================================================
+// DISPLAY VERB
+// =====================================================
 
-function shuffleArray(array) {
-
-    for (let i = array.length - 1; i > 0; i--) {
-
-        const j = Math.floor(
-            Math.random() * (i + 1)
-        );
-
-        [array[i], array[j]] =
-            [array[j], array[i]];
-    }
-
-    return array;
-}
-
-
-// ==================================================
-// NEXT VERB
-// ==================================================
-
-function nextVerb() {
-
-    sessionIndex++;
+function displayNextVerb() {
 
     if (sessionIndex >= sessionVerbCount) {
         finishPractice();
         return;
     }
-
-    displayNextVerb();
-}
-
-function displayNextVerb() {
 
     currentVerb = sessionVerbs[sessionIndex];
 
@@ -445,147 +411,138 @@ function displayNextVerb() {
     activeInput = null;
 
     document.getElementById("result").textContent = "";
-    document.getElementById("translation").hidden = true;
 
     document.getElementById("checkBtn").disabled = false;
 
-    displayVerb();
-    createConjugationTable();
-    updateProgress();
-}
+    const translation =
+        document.getElementById("translation");
 
+    translation.hidden = true;
+    translation.textContent = "";
 
-// ==================================================
-// PROGRESS INDICATOR
-// ==================================================
+    const verbPrompt =
+        document.getElementById("verbPrompt");
 
-function updateProgress() {
+    if (selectedLanguage === "spanish") {
 
-    const currentNumber = sessionIndex + 1;
+        verbPrompt.textContent = currentVerb.spanish;
+
+        translation.textContent = currentVerb.english;
+
+    } else {
+
+        verbPrompt.textContent = currentVerb.english;
+
+        translation.textContent = currentVerb.spanish;
+    }
+
+    document.getElementById("verbChapter").textContent =
+        `Chapter ${currentVerb.chapter}`;
 
     document.getElementById("progress").textContent =
-        "Verb " + currentNumber +
-        " of " + sessionVerbCount;
+        `Verb ${sessionIndex + 1} of ${sessionVerbCount}`;
 
     const progressBar =
         document.getElementById("progressBar");
 
     progressBar.max = sessionVerbCount;
-    progressBar.value = sessionIndex;
+    progressBar.value = sessionIndex + 1;
 
-    document.getElementById("nextBtn").textContent =
-        currentNumber === sessionVerbCount
-            ? "Finish Practice"
-            : "Next Verb";
+    createConjugationTable();
 }
 
 
-// ==================================================
-// DISPLAY VERB
-// ==================================================
-
-function displayVerb() {
-
-    const prompt =
-        document.getElementById("verbPrompt");
-
-    prompt.textContent =
-        selectedLanguage === "spanish"
-            ? currentVerb.spanish
-            : currentVerb.english;
-
-    document.getElementById("verbChapter").textContent =
-        "Introduced in Chapter " + currentVerb.chapter;
-}
-
-function revealTranslation() {
-
-    const translation =
-        document.getElementById("translation");
-
-    translation.textContent =
-        selectedLanguage === "spanish"
-            ? currentVerb.english
-            : currentVerb.spanish;
-
-    translation.hidden = false;
-}
-
-
-// ==================================================
+// =====================================================
 // CREATE CONJUGATION TABLE
-// ==================================================
+// =====================================================
 
 function createConjugationTable() {
 
-    const tableHead =
-        document.getElementById("tableHead");
-
-    const tableBody =
-        document.getElementById("tableBody");
+    const tableHead = document.getElementById("tableHead");
+    const tableBody = document.getElementById("tableBody");
 
     tableHead.innerHTML = "";
     tableBody.innerHTML = "";
 
-    const tenses = getSelectedTenses();
+    const selectedTenses = getSelectedTenses();
 
-    // Table headings
-    const headingRow = document.createElement("tr");
+    // Create column headings.
+    const headerRow = document.createElement("tr");
 
     const pronounHeading = document.createElement("th");
+
     pronounHeading.textContent = "Pronoun";
+    headerRow.appendChild(pronounHeading);
 
-    headingRow.appendChild(pronounHeading);
-
-    tenses.forEach(tense => {
+    selectedTenses.forEach(tense => {
 
         const heading = document.createElement("th");
+
         heading.textContent = tenseNames[tense];
 
-        headingRow.appendChild(heading);
+        headerRow.appendChild(heading);
     });
 
-    tableHead.appendChild(headingRow);
+    tableHead.appendChild(headerRow);
 
-    // Six pronoun rows
-    pronouns.forEach((pronoun, index) => {
+    // Create six pronoun rows.
+    pronouns.forEach((pronoun, pronounIndex) => {
 
         const row = document.createElement("tr");
 
         const pronounCell = document.createElement("td");
-        pronounCell.textContent = pronoun;
 
+        pronounCell.textContent = pronoun;
         row.appendChild(pronounCell);
 
-        tenses.forEach(tense => {
+        selectedTenses.forEach(tense => {
 
             const cell = document.createElement("td");
 
             const input = document.createElement("input");
 
             input.type = "text";
-            input.className = "conjugation-input";
-
             input.autocomplete = "off";
             input.spellcheck = false;
 
             input.dataset.tense = tense;
-            input.dataset.index = index;
+            input.dataset.index = pronounIndex;
 
             input.setAttribute(
                 "aria-label",
-                pronoun + " " + tenseNames[tense]
+                `${pronoun}, ${tenseNames[tense]}`
             );
 
+            // Remember the selected input for accent buttons.
             input.addEventListener("focus", () => {
                 activeInput = input;
             });
 
+            // Clear old feedback when the student edits.
             input.addEventListener("input", () => {
-                clearInputFeedback(input);
+
+                const feedback =
+                    cell.querySelector(".feedback");
+
+                if (feedback && !answersRevealed) {
+                    feedback.textContent = "";
+                }
+
+                input.classList.remove(
+                    "correct",
+                    "incorrect",
+                    "accent-error"
+                );
             });
 
+            // NEW: Tab and Enter navigate down columns.
+            input.addEventListener(
+                "keydown",
+                handleConjugationNavigation
+            );
+
             const feedback = document.createElement("span");
+
             feedback.className = "feedback";
 
             cell.appendChild(input);
@@ -596,17 +553,111 @@ function createConjugationTable() {
 
         tableBody.appendChild(row);
     });
+
+    // NEW: Automatically focus the yo field.
+    const firstInput =
+        tableBody.querySelector("input");
+
+    if (firstInput) {
+        firstInput.focus();
+    }
 }
 
 
-// ==================================================
-// SPANISH CHARACTER TOOLBAR
-// ==================================================
+// =====================================================
+// KEYBOARD NAVIGATION
+// =====================================================
+
+function handleConjugationNavigation(event) {
+
+    // Only intercept Tab and Enter.
+    if (event.key !== "Tab" && event.key !== "Enter") {
+        return;
+    }
+
+    const inputs = Array.from(
+        document.querySelectorAll("#tableBody input")
+    );
+
+    const currentInput = event.target;
+
+    if (currentInput.disabled) {
+        return;
+    }
+
+    const selectedTenses = getSelectedTenses();
+
+    const currentTense = currentInput.dataset.tense;
+    const currentRow = Number(currentInput.dataset.index);
+
+    const currentColumn =
+        selectedTenses.indexOf(currentTense);
+
+    if (currentColumn === -1) {
+        return;
+    }
+
+    // Position in column-first order.
+    const currentPosition =
+        currentColumn * pronouns.length + currentRow;
+
+    // Shift+Tab moves backward.
+    const direction =
+        event.key === "Tab" && event.shiftKey
+            ? -1
+            : 1;
+
+    const nextPosition = currentPosition + direction;
+
+    // At the end, Enter stays in the last input.
+    // Tab leaves the table using the normal browser behavior.
+    if (
+        nextPosition < 0 ||
+        nextPosition >= inputs.length
+    ) {
+
+        if (event.key === "Enter") {
+            event.preventDefault();
+        }
+
+        return;
+    }
+
+    const nextColumn =
+        Math.floor(nextPosition / pronouns.length);
+
+    const nextRow =
+        nextPosition % pronouns.length;
+
+    const nextTense = selectedTenses[nextColumn];
+
+    const nextInput = inputs.find(input =>
+        input.dataset.tense === nextTense &&
+        Number(input.dataset.index) === nextRow
+    );
+
+    if (nextInput && !nextInput.disabled) {
+
+        event.preventDefault();
+
+        nextInput.focus();
+
+        // Highlight existing text for easy correction.
+        nextInput.select();
+    }
+}
+
+
+// =====================================================
+// SPANISH CHARACTER BUTTONS
+// =====================================================
 
 function createAccentButtons() {
 
     const container =
         document.getElementById("accentButtons");
+
+    container.innerHTML = "";
 
     spanishCharacters.forEach(character => {
 
@@ -615,6 +666,7 @@ function createAccentButtons() {
         button.type = "button";
         button.textContent = character;
 
+        // Preserve the focus and cursor position.
         button.addEventListener("mousedown", event => {
             event.preventDefault();
         });
@@ -627,11 +679,18 @@ function createAccentButtons() {
     });
 }
 
+
 function insertCharacter(character) {
 
-    if (!activeInput || activeInput.disabled) {
+    if (
+        !activeInput ||
+        activeInput.disabled ||
+        !activeInput.isConnected
+    ) {
         return;
     }
+
+    activeInput.focus();
 
     const start = activeInput.selectionStart;
     const end = activeInput.selectionEnd;
@@ -643,48 +702,47 @@ function insertCharacter(character) {
         "end"
     );
 
-    activeInput.focus();
-
     activeInput.dispatchEvent(
         new Event("input", { bubbles: true })
     );
 }
 
 
-// ==================================================
+// =====================================================
 // ANSWER COMPARISON
-// ==================================================
+// =====================================================
 
-function normalizeAnswer(answer) {
+function normalizeAnswer(value) {
 
-    return answer
+    return String(value)
         .trim()
         .toLocaleLowerCase("es")
-        .normalize("NFC");
+        .normalize("NFC")
+        .replace(/\s+/g, " ");
 }
 
-// Used only to identify accent errors.
-// Accents are required for correct answers.
 
-function removeAccents(answer) {
+function removeAccents(value) {
 
-    return answer
+    return normalizeAnswer(value)
         .normalize("NFD")
         .replace(/[\u0300-\u036f]/g, "");
 }
 
-function evaluateAnswer(studentAnswer, correctAnswer) {
 
-    const student = normalizeAnswer(studentAnswer);
-    const expected = normalizeAnswer(correctAnswer);
+function evaluateAnswer(answer, expected) {
 
-    if (student === expected) {
+    const normalizedAnswer = normalizeAnswer(answer);
+    const normalizedExpected = normalizeAnswer(expected);
+
+    if (normalizedAnswer === normalizedExpected) {
         return "correct";
     }
 
     if (
-        student !== "" &&
-        removeAccents(student) === removeAccents(expected)
+        normalizedAnswer !== "" &&
+        removeAccents(normalizedAnswer) ===
+        removeAccents(normalizedExpected)
     ) {
         return "accent";
     }
@@ -693,40 +751,23 @@ function evaluateAnswer(studentAnswer, correctAnswer) {
 }
 
 
-// ==================================================
-// CLEAR INPUT FEEDBACK
-// ==================================================
-
-function clearInputFeedback(input) {
-
-    input.classList.remove("correct", "incorrect");
-
-    const feedback = input.parentElement
-        .querySelector(".feedback");
-
-    feedback.textContent = "";
-    feedback.className = "feedback";
-}
-
-
-// ==================================================
+// =====================================================
 // CHECK ANSWERS
-// ==================================================
+// =====================================================
 
 function checkAnswers() {
 
-    // Do not grade after answers have been revealed.
-    if (answersRevealed) {
+    if (!currentVerb || answersRevealed) {
         return;
     }
 
     revealTranslation();
 
     const inputs = document.querySelectorAll(
-        ".conjugation-input"
+        "#tableBody input"
     );
 
-    let correctCount = 0;
+    let correctThisCheck = 0;
 
     inputs.forEach(input => {
 
@@ -736,37 +777,33 @@ function checkAnswers() {
         const expected =
             currentVerb.conjugations[tense][index];
 
-        const result = evaluateAnswer(
-            input.value,
-            expected
+        const result =
+            evaluateAnswer(input.value, expected);
+
+        const feedback =
+            input.parentElement.querySelector(".feedback");
+
+        input.classList.remove(
+            "correct",
+            "incorrect",
+            "accent-error"
         );
-
-        clearInputFeedback(input);
-
-        const feedback = input.parentElement
-            .querySelector(".feedback");
 
         if (result === "correct") {
 
-            correctCount++;
+            correctThisCheck++;
 
             input.classList.add("correct");
-
-            feedback.className = "feedback correct";
             feedback.textContent = "Correct";
 
         } else if (result === "accent") {
 
-            input.classList.add("incorrect");
-
-            feedback.className = "feedback incorrect";
+            input.classList.add("accent-error");
             feedback.textContent = "Accent error";
 
         } else {
 
             input.classList.add("incorrect");
-
-            feedback.className = "feedback incorrect";
             feedback.textContent = "Incorrect";
         }
     });
@@ -774,14 +811,15 @@ function checkAnswers() {
     const total = inputs.length;
 
     document.getElementById("result").textContent =
-        "Score: " + correctCount + " / " + total;
+        `${correctThisCheck} of ${total} answers correct.`;
 
-    // Only the first check counts toward session statistics.
+    // Record statistics only on the first check.
     if (!currentVerbScored) {
 
         verbsAttempted++;
+
         answersGraded += total;
-        correctAnswers += correctCount;
+        correctAnswers += correctThisCheck;
 
         currentVerbScored = true;
 
@@ -790,16 +828,20 @@ function checkAnswers() {
 }
 
 
-// ==================================================
+// =====================================================
 // SHOW ANSWERS
-// ==================================================
+// =====================================================
 
 function showAnswers() {
+
+    if (!currentVerb) {
+        return;
+    }
 
     revealTranslation();
 
     const inputs = document.querySelectorAll(
-        ".conjugation-input"
+        "#tableBody input"
     );
 
     inputs.forEach(input => {
@@ -810,91 +852,112 @@ function showAnswers() {
         const expected =
             currentVerb.conjugations[tense][index];
 
-        const result = evaluateAnswer(
-            input.value,
-            expected
+        const result =
+            evaluateAnswer(input.value, expected);
+
+        const feedback =
+            input.parentElement.querySelector(".feedback");
+
+        input.classList.remove(
+            "correct",
+            "incorrect",
+            "accent-error"
         );
-
-        clearInputFeedback(input);
-
-        const feedback = input.parentElement
-            .querySelector(".feedback");
 
         if (result === "correct") {
 
             input.classList.add("correct");
-
-            feedback.className = "feedback correct";
             feedback.textContent = "Correct";
 
         } else {
 
             input.classList.add("incorrect");
-
-            feedback.className = "feedback incorrect";
-            feedback.textContent = "Answer: " + expected;
+            feedback.textContent = `Answer: ${expected}`;
         }
 
-        // Prevent changes after revealing the answers.
         input.disabled = true;
     });
 
     answersRevealed = true;
+    activeInput = null;
 
     document.getElementById("checkBtn").disabled = true;
-
     document.getElementById("result").textContent =
-        "Correct answers displayed.";
+        "Correct answers are displayed above.";
 }
 
 
-// ==================================================
-// UPDATE SESSION STATISTICS
-// ==================================================
+function revealTranslation() {
+
+    document.getElementById("translation").hidden = false;
+}
+
+
+// =====================================================
+// NEXT VERB
+// =====================================================
+
+function nextVerb() {
+
+    sessionIndex++;
+
+    if (sessionIndex >= sessionVerbCount) {
+
+        finishPractice();
+
+    } else {
+
+        displayNextVerb();
+    }
+}
+
+
+// =====================================================
+// STATISTICS
+// =====================================================
+
+function getAccuracy() {
+
+    if (answersGraded === 0) {
+        return 0;
+    }
+
+    return Math.round(
+        (correctAnswers / answersGraded) * 100
+    );
+}
+
 
 function updateStatistics() {
 
     document.getElementById("attempts").textContent =
         verbsAttempted;
 
-    const accuracy = answersGraded === 0
-        ? 0
-        : Math.round(
-            correctAnswers / answersGraded * 100
-        );
-
     document.getElementById("accuracy").textContent =
-        accuracy + "%";
+        `${getAccuracy()}%`;
 }
 
 
-// ==================================================
-// FINISH PRACTICE
-// ==================================================
+// =====================================================
+// PRACTICE SUMMARY
+// =====================================================
 
 function finishPractice() {
-
-    const accuracy = answersGraded === 0
-        ? 0
-        : Math.round(
-            correctAnswers / answersGraded * 100
-        );
 
     document.getElementById("practice").hidden = true;
     document.getElementById("summary").hidden = false;
 
+    activeInput = null;
+
     document.getElementById("summaryVerbs").textContent =
-        "Verbs in Session: " + sessionVerbCount;
+        `Verbs in session: ${sessionVerbCount}`;
 
     document.getElementById("summaryAnswers").textContent =
-        "Answers Graded: " + answersGraded;
+        `Answers graded: ${answersGraded}`;
 
     document.getElementById("summaryCorrect").textContent =
-        "Correct Answers: " + correctAnswers;
+        `Correct answers: ${correctAnswers}`;
 
     document.getElementById("summaryAccuracy").textContent =
-        "First-Check Accuracy: " + accuracy + "%";
-
-    document.getElementById("startBtn").textContent =
-        "Start Practice";
+        `First-check accuracy: ${getAccuracy()}%`;
 }

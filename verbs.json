@@ -4925,6 +4925,257 @@
           "respiraban"
         ]
       }
+    },
+  {
+    "spanish": "alegrarse",
+    "english": "to be happy / to be glad",
+    "chapter": 12,
+    "conjugations": {
+      "present": ["me alegro", "te alegras", "se alegra", "nos alegramos", "os alegráis", "se alegran"],
+      "preterite": ["me alegré", "te alegraste", "se alegró", "nos alegramos", "os alegrasteis", "se alegraron"],
+      "imperfect": ["me alegraba", "te alegrabas", "se alegraba", "nos alegrábamos", "os alegrabais", "se alegraban"]
     }
-  ]
+  },
+  {
+    "spanish": "dudar",
+    "english": "to doubt",
+    "chapter": 12,
+    "conjugations": {
+      "present": ["dudo", "dudas", "duda", "dudamos", "dudáis", "dudan"],
+      "preterite": ["dudé", "dudaste", "dudó", "dudamos", "dudasteis", "dudaron"],
+      "imperfect": ["dudaba", "dudabas", "dudaba", "dudábamos", "dudabais", "dudaban"]
+    }
+  },
+  {
+    "spanish": "esperar",
+    "english": "to hope / to wait / to expect",
+    "chapter": 12,
+    "conjugations": {
+      "present": ["espero", "esperas", "espera", "esperamos", "esperáis", "esperan"],
+      "preterite": ["esperé", "esperaste", "esperó", "esperamos", "esperasteis", "esperaron"],
+      "imperfect": ["esperaba", "esperabas", "esperaba", "esperábamos", "esperabais", "esperaban"]
+    }
+  },
+  {
+    "spanish": "haber",
+    "english": "to have (auxiliary verb)",
+    "chapter": 12,
+    "conjugations": {
+      "present": ["he", "has", "ha", "hemos", "habéis", "han"],
+      "preterite": ["hube", "hubiste", "hubo", "hubimos", "hubisteis", "hubieron"],
+      "imperfect": ["había", "habías", "había", "habíamos", "habíais", "habían"]
+    }
+  },
+  {
+    "spanish": "insistir",
+    "english": "to insist",
+    "chapter": 12,
+    "conjugations": {
+      "present": ["insisto", "insistes", "insiste", "insistimos", "insistís", "insisten"],
+      "preterite": ["insistí", "insististe", "insistió", "insistimos", "insististeis", "insistieron"],
+      "imperfect": ["insistía", "insistías", "insistía", "insistíamos", "insistíais", "insistían"]
+    }
+  },
+  {
+    "spanish": "mandar",
+    "english": "to send / to order",
+    "chapter": 12,
+    "conjugations": {
+      "present": ["mando", "mandas", "manda", "mandamos", "mandáis", "mandan"],
+      "preterite": ["mandé", "mandaste", "mandó", "mandamos", "mandasteis", "mandaron"],
+      "imperfect": ["mandaba", "mandabas", "mandaba", "mandábamos", "mandabais", "mandaban"]
+    }
+  },
+  {
+    "spanish": "obtener",
+    "english": "to obtain / to get",
+    "chapter": 12,
+    "conjugations": {
+      "present": ["obtengo", "obtienes", "obtiene", "obtenemos", "obtenéis", "obtienen"],
+      "preterite": ["obtuve", "obtuviste", "obtuvo", "obtuvimos", "obtuvisteis", "obtuvieron"],
+      "imperfect": ["obtenía", "obtenías", "obtenía", "obteníamos", "obteníais", "obtenían"]
+    }
+  },
+  {
+    "spanish": "permitir",
+    "english": "to permit / to allow",
+    "chapter": 12,
+    "conjugations": {
+      "present": ["permito", "permites", "permite", "permitimos", "permitís", "permiten"],
+      "preterite": ["permití", "permitiste", "permitió", "permitimos", "permitisteis", "permitieron"],
+      "imperfect": ["permitía", "permitías", "permitía", "permitíamos", "permitíais", "permitían"]
+    }
+  },
+  {
+    "spanish": "prohibir",
+    "english": "to prohibit / to forbid",
+    "chapter": 12,
+    "conjugations": {
+      "present": ["prohíbo", "prohíbes", "prohíbe", "prohibimos", "prohibís", "prohíben"],
+      "preterite": ["prohibí", "prohibiste", "prohibió", "prohibimos", "prohibisteis", "prohibieron"],
+      "imperfect": ["prohibía", "prohibías", "prohibía", "prohibíamos", "prohibíais", "prohibían"]
+    }
+  },
+  {
+    "spanish": "almacenar",
+    "english": "to store",
+    "chapter": 12,
+    "conjugations": {
+      "present": ["almaceno", "almacenas", "almacena", "almacenamos", "almacenáis", "almacenan"],
+      "preterite": ["almacené", "almacenaste", "almacenó", "almacenamos", "almacenasteis", "almacenaron"],
+      "imperfect": ["almacenaba", "almacenabas", "almacenaba", "almacenábamos", "almacenabais", "almacenaban"]
+    }
+  },
+  {
+    "spanish": "apagar",
+    "english": "to turn off",
+    "chapter": 12,
+    "conjugations": {
+      "present": ["apago", "apagas", "apaga", "apagamos", "apagáis", "apagan"],
+      "preterite": ["apagué", "apagaste", "apagó", "apagamos", "apagasteis", "apagaron"],
+      "imperfect": ["apagaba", "apagabas", "apagaba", "apagábamos", "apagabais", "apagaban"]
+    }
+  },
+  {
+    "spanish": "bajar",
+    "english": "to go down / to download",
+    "chapter": 12,
+    "conjugations": {
+      "present": ["bajo", "bajas", "baja", "bajamos", "bajáis", "bajan"],
+      "preterite": ["bajé", "bajaste", "bajó", "bajamos", "bajasteis", "bajaron"],
+      "imperfect": ["bajaba", "bajabas", "bajaba", "bajábamos", "bajabais", "bajaban"]
+    }
+  },
+  {
+    "spanish": "cambiar",
+    "english": "to change",
+    "chapter": 12,
+    "conjugations": {
+      "present": ["cambio", "cambias", "cambia", "cambiamos", "cambiáis", "cambian"],
+      "preterite": ["cambié", "cambiaste", "cambió", "cambiamos", "cambiasteis", "cambiaron"],
+      "imperfect": ["cambiaba", "cambiabas", "cambiaba", "cambiábamos", "cambiabais", "cambiaban"]
+    }
+  },
+  {
+    "spanish": "descargar",
+    "english": "to download",
+    "chapter": 12,
+    "conjugations": {
+      "present": ["descargo", "descargas", "descarga", "descargamos", "descargáis", "descargan"],
+      "preterite": ["descargué", "descargaste", "descargó", "descargamos", "descargasteis", "descargaron"],
+      "imperfect": ["descargaba", "descargabas", "descargaba", "descargábamos", "descargabais", "descargaban"]
+    }
+  },
+  {
+    "spanish": "encender",
+    "english": "to turn on / to light",
+    "chapter": 12,
+    "conjugations": {
+      "present": ["enciendo", "enciendes", "enciende", "encendemos", "encendéis", "encienden"],
+      "preterite": ["encendí", "encendiste", "encendió", "encendimos", "encendisteis", "encendieron"],
+      "imperfect": ["encendía", "encendías", "encendía", "encendíamos", "encendíais", "encendían"]
+    }
+  },
+  {
+    "spanish": "entrar",
+    "english": "to enter",
+    "chapter": 12,
+    "conjugations": {
+      "present": ["entro", "entras", "entra", "entramos", "entráis", "entran"],
+      "preterite": ["entré", "entraste", "entró", "entramos", "entrasteis", "entraron"],
+      "imperfect": ["entraba", "entrabas", "entraba", "entrábamos", "entrabais", "entraban"]
+    }
+  },
+  {
+    "spanish": "fallar",
+    "english": "to fail / to malfunction",
+    "chapter": 12,
+    "conjugations": {
+      "present": ["fallo", "fallas", "falla", "fallamos", "falláis", "fallan"],
+      "preterite": ["fallé", "fallaste", "falló", "fallamos", "fallasteis", "fallaron"],
+      "imperfect": ["fallaba", "fallabas", "fallaba", "fallábamos", "fallabais", "fallaban"]
+    }
+  },
+  {
+    "spanish": "funcionar",
+    "english": "to function / to work",
+    "chapter": 12,
+    "conjugations": {
+      "present": ["funciono", "funcionas", "funciona", "funcionamos", "funcionáis", "funcionan"],
+      "preterite": ["funcioné", "funcionaste", "funcionó", "funcionamos", "funcionasteis", "funcionaron"],
+      "imperfect": ["funcionaba", "funcionabas", "funcionaba", "funcionábamos", "funcionabais", "funcionaban"]
+    }
+  },
+  {
+    "spanish": "grabar",
+    "english": "to record / to save",
+    "chapter": 12,
+    "conjugations": {
+      "present": ["grabo", "grabas", "graba", "grabamos", "grabáis", "graban"],
+      "preterite": ["grabé", "grabaste", "grabó", "grabamos", "grabasteis", "grabaron"],
+      "imperfect": ["grababa", "grababas", "grababa", "grabábamos", "grababais", "grababan"]
+    }
+  },
+  {
+    "spanish": "guardar",
+    "english": "to save / to keep",
+    "chapter": 12,
+    "conjugations": {
+      "present": ["guardo", "guardas", "guarda", "guardamos", "guardáis", "guardan"],
+      "preterite": ["guardé", "guardaste", "guardó", "guardamos", "guardasteis", "guardaron"],
+      "imperfect": ["guardaba", "guardabas", "guardaba", "guardábamos", "guardabais", "guardaban"]
+    }
+  },
+  {
+    "spanish": "imprimir",
+    "english": "to print",
+    "chapter": 12,
+    "conjugations": {
+      "present": ["imprimo", "imprimes", "imprime", "imprimimos", "imprimís", "imprimen"],
+      "preterite": ["imprimí", "imprimiste", "imprimió", "imprimimos", "imprimisteis", "imprimieron"],
+      "imperfect": ["imprimía", "imprimías", "imprimía", "imprimíamos", "imprimíais", "imprimían"]
+    }
+  },
+  {
+    "spanish": "manejar",
+    "english": "to drive / to operate",
+    "chapter": 12,
+    "conjugations": {
+      "present": ["manejo", "manejas", "maneja", "manejamos", "manejáis", "manejan"],
+      "preterite": ["manejé", "manejaste", "manejó", "manejamos", "manejasteis", "manejaron"],
+      "imperfect": ["manejaba", "manejabas", "manejaba", "manejábamos", "manejabais", "manejaban"]
+    }
+  },
+  {
+    "spanish": "navegar",
+    "english": "to navigate / to browse the internet",
+    "chapter": 12,
+    "conjugations": {
+      "present": ["navego", "navegas", "navega", "navegamos", "navegáis", "navegan"],
+      "preterite": ["navegué", "navegaste", "navegó", "navegamos", "navegasteis", "navegaron"],
+      "imperfect": ["navegaba", "navegabas", "navegaba", "navegábamos", "navegabais", "navegaban"]
+    }
+  },
+  {
+    "spanish": "publicar",
+    "english": "to publish / to post",
+    "chapter": 12,
+    "conjugations": {
+      "present": ["publico", "publicas", "publica", "publicamos", "publicáis", "publican"],
+      "preterite": ["publiqué", "publicaste", "publicó", "publicamos", "publicasteis", "publicaron"],
+      "imperfect": ["publicaba", "publicabas", "publicaba", "publicábamos", "publicabais", "publicaban"]
+    }
+  },
+  {
+    "spanish": "subir",
+    "english": "to go up / to upload",
+    "chapter": 12,
+    "conjugations": {
+      "present": ["subo", "subes", "sube", "subimos", "subís", "suben"],
+      "preterite": ["subí", "subiste", "subió", "subimos", "subisteis", "subieron"],
+      "imperfect": ["subía", "subías", "subía", "subíamos", "subíais", "subían"]
+    }
+  }
+]
+
   
